@@ -1,0 +1,26 @@
+on join:
+  broadcast "&c&L+ &e&l%player's displayname% &7has joined!"  
+
+on leave:
+  broadcast "&c&l- &e&L%player's displayname% &7has left!"
+
+on chat:
+	if message contains ".com", ".net", ".de", ".me", ".eu", "eu.", "us.", ".gg" or ".nu":
+		if player does not have permission "chatcore.admin.bypass":
+			cancel event
+			message "&7-------------------------------------------"
+			message "&eAdvertising is against the rules. You will be"
+			message "&epermanently banned from the server if you attempt"
+			message "&eto advertise."
+			message "&7-------------------------------------------"
+			stop
+			
+command /ping:
+	description: Checks your ping by sending a message back to you!
+	usage: /ping
+	aliases: /p, /pi, /chatcore:ping, /chatcore:p, /chatcore:pi
+	permission: chatcore.command.ping
+	permission message: {@NoPermissionMessage}
+	trigger:
+		send "&7Ping Test"
+		send "%nl%&7Player Name - &e%player%%nl%"
