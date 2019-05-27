@@ -10,8 +10,8 @@ on chat:
 			cancel event
 			message "&7-------------------------------------------"
 			message "&eAdvertising is against the rules. You will be"
-			message "&epermanently banned from the server if you attempt"
-			message "&eto advertise."
+			message "&epermanently muted from the server if you attempt"
+			message "&eto advertise!"
 			message "&7-------------------------------------------"
 			stop
 			
