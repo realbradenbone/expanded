@@ -1,0 +1,16 @@
+command /setrank [<player>] [<text>]:
+	permission: rank.admin
+	permission message: &cNo Permissions
+	aliases: /sr
+	trigger:
+		if arg-1 is not set:
+			send "&cError! &e Please specifiy the player's name you are adding to a rank in the first argument."
+			stop
+		if arg-1 is set:
+			if arg-2 is not set:
+				send "&a&lTREAZE &8» &cError. You must specify a group name as your second arg."
+				stop
+			if arg-2 is set:
+				make console execute command "/manuadd %arg-1% %arg-2%"
+				send "&cError! &e Please specify the group name you are adding the player to in the second argument."
+				stop
