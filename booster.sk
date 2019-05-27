@@ -38,7 +38,7 @@ every 5 minutes:
 	if {moneybooster.active} is true:
 		loop all players:
 			add 5000 to loop-player's balance
-			broadcast "&a&lTREAZE &8» &7Because of an active money booster you have been rewarded with &a$5000&7!"
+			broadcast "&8» &7Because of an active money booster you have been rewarded with &a$5000&7!"
 			stop
 	else:
 		stop
@@ -53,15 +53,15 @@ on right click with emerald:
 			remove 1 emerald named "&aDrop Booster" with lore "||&aDrop Booster||&7Booster Length:||&a1 hour||&7&m----------||&7Booster Description:||&aGives you 3x the amount of drops when killing certain mobs!||&7Mobs Affected:||&fVillager||&fIron Golem||&fVindicator||&fSilverfish||&fEndermite||&7&m----------||&aRight Click to activate while no booster is active!" from player's inventory
 			wait 2 seconds
 			set {dropbooster.active} to true
-			broadcast "%nl%&a&lTREAZE &8» &a%player% &7just activated a &a""Drop Booster""&7 that lasts for 1 hour for all players on the server. &7When you slay certain mobs their drop rate will be tripled!%nl%"  
+			broadcast "%nl%&8» &a%player% &7just activated a &a""Drop Booster""&7 that lasts for 1 hour for all players on the server. &7When you slay certain mobs their drop rate will be tripled!%nl%"  
 			wait 55 minutes
-			broadcast "%nl%&a&lTREAZE &8» &7%player%'s Drop Booster will expire in 5 minutes!%nl%"
+			broadcast "%nl%&8» &7%player%'s Drop Booster will expire in 5 minutes!%nl%"
 			wait 5 minutes
-			broadcast "%nl%&a&lTREAZE &8» &7%player%'s Drop Booster has just expired. If you have one activate it now or &a/buy&7 to purchase some more!%nl%"
+			broadcast "%nl%&8» &7%player%'s Drop Booster has just expired. If you have one activate it now or &a/buy&7 to purchase some more!%nl%"
 			set {dropbooster.active} to false
 			stop
 		if {dropbooster.active} is true:
-			send "&a&lTREAZE &8» &7Somebody already activated a booster, please check back later!"
+			send "&8» &7Somebody already activated a booster, please check back later!"
 			stop
 on right click with paper:
 	if {moneybooster.active} is false:
@@ -69,15 +69,15 @@ on right click with paper:
 			remove 1 paper named "&b&nMoney Booster" with lore "||&bMoney Booster||&7Booster Length:||&b30 Minutes||&7&m----------||&7Booster Description:||&bGives you &b&n$5000&b every 5 minutes! ||&7NOTE:||&bYou must be online to claim the money!||&7&m----------||" from player's inventory
 			wait 2 seconds
 			set {moneybooster.active} to true
-			broadcast "%nl%&a&lTREAZE &8» &a%player% &7just activated a &a""Money Booster""&7 that lasts for 30 minutes for all players on the server. &7Every player recieves $5000 every 5 minutes for 30 minutes!%nl%"  
+			broadcast "%nl%&8» &a%player% &7just activated a &a""Money Booster""&7 that lasts for 30 minutes for all players on the server. &7Every player recieves $5000 every 5 minutes for 30 minutes!%nl%"  
 			wait 25 minutes
-			broadcast "%nl%&a&lTREAZE &8» &7%player%'s Money Booster will expire in 5 minutes!%nl%"
+			broadcast "%nl%&8» &7%player%'s Money Booster will expire in 5 minutes!%nl%"
 			wait 5 minutes
-			broadcast "%nl%&a&lTREAZE &8» &7%player%'s Money Booster has just expired. If you have one activate it now or &a/buy&7 to purchase some more!%nl%"
+			broadcast "%nl%&8» &7%player%'s Money Booster has just expired. If you have one activate it now or &a/buy&7 to purchase some more!%nl%"
 			set {moneybooster.active} to false
 			stop
 	if {moneybooster.active} is true:
-		send "&a&lTREAZE &8» &7Somebody already activated a booster, please check back later!"
+		send "&8» &7Somebody already activated a booster, please check back later!"
 		stop
 		
 		
