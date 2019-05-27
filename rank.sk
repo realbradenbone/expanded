@@ -1,0 +1,220 @@
+on join:
+	if {rank.%uuid of the player%} is not set:
+		set {rank.%uuid of the player%} to "default"
+		add uuid of player to {ranks::default::*}
+	if {ranks.default.prefix} is not set:
+		set {ranks.default.prefix} to "&7"
+		set {ranks.default.suffix} to ""
+	if {nick.%uuid of the player%} is not set:
+		set {nick.%uuid of the player%} to the player
+	if {lastknownrank.%uuid of the player%} is not set:
+		set {lastknownrank.%uuid of the player%} to false
+		
+on death:
+	victim is a player
+	attacker is a player
+	add 1 to {kills.%uuid of attacker%}
+	add 1 to {deaths.%uuid of victim%}
+		
+on load:
+	if {ranks.default.prefix} is not set:
+		set {ranks.default.prefix} to "&7"
+		set {ranks.default.suffix} to ""
+	loop all players:
+		if {rank.%uuid of loop-player%} is not set:
+			set {rank.%uuid of loop-player%} to "default"
+		if {ranks.default.prefix} is not set:
+			set {ranks.default.prefix} to "&7"
+			set {ranks.default.suffix} to ""
+		if {nick.%uuid of loop-player%} is not set:
+			set {nick.%uuid of loop-player%} to loop-player
+		if {lastknownrank.%uuid of loop-player%} is not set:
+			set {lastknownrank.%uuid of loop-player%} to false
+
+command /nick [<text>]:
+	permission: nick.use
+	permission message: &cInsufficient permissions!
+	trigger:
+		if arg-1 is not set:
+			send "&8(&a*&8) &c/nick [text|off]"
+		else if arg-1 is "off":
+			if {lastknownrank.%uuid of the player%} is false:
+				send "&8(&a*&8) &cYou currently do not have a nick!"
+				stop
+			set {rank.%uuid of the player%} to {lastknownrank.%uuid of the player%}
+			set {lastknownrank.%uuid of the player%} to false
+			set {nick.%uuid of the player%} to the player
+			send "&8(&a*&8) &aNickname disabled"
+		else:
+			if {lastknownrank.%uuid of the player%} is false:
+				set {lastknownrank.%uuid of the player%} to {rank.%uuid of the player%}
+			set {rank.%uuid of the player%} to "default"
+			set {nick.%uuid of the player%} to arg-1
+			send "&8(&a*&8) &7Nickname was set to:&a %arg-1%&7!"
+
+command /rank [<text>] [<text>] [<text>] [<text>]:	
+	permission: rank.use
+	permission message: &cInsufficient permissions!
+	trigger:
+		if arg-1 is not set: 
+			send "&8(&a*&8) &7&m------------------------------------"
+			send ""
+			send "&8(&a*&8) &c/rank create <id>"
+			send "&7 - Create a group"
+			send "&8(&a*&8) &c/rank prefix <id> <value>"
+			send "&7 - Set a prefix for a group"
+			send "&8(&a*&8) &c/rank suffix <id> <value>"
+			send "&7 - Set a suffix for a group"
+			send "&8(&a*&8) &c/rank set <player> <id>"
+			send "&7 - Set a players rank"
+			send "&8(&a*&8) &c/rank list"
+			send "&7 - List all groups (Requires * Permission)"
+			send "&8(&a*&8) &c/rank delete <id>"
+			send "&7 - Remove a group"
+			send "&8(&a*&8) &c/rank permission add <id>"
+			send "&7 - Add a permission to a group"
+			send "&8(&a*&8) &c/rank permission remove <id>"
+			send "&7 - Remove a permission from a group"
+			send "&8(&a*&8) &c/rank user add <id>"
+			send "&7 - Add a permission to a user"
+			send "&8(&a*&8) &c/rank user remove <id>"
+			send "&7 - Remove a permission from a user"
+			send ""
+			send "&8(&a*&8) &7&m------------------------------------"
+		else if arg-1 is "create":
+			if arg-2 is not set:
+				send "&8(&a*&8) &cPlease select a name for the group!"
+				stop
+			if {ranks.%arg-2%.prefix} is set:
+				send "&8(&a*&8) &cThat group already exists!"
+				stop
+			set {ranks.%arg-2%.prefix} to "&7"
+			set {ranks.%arg-2%.suffix} to ""
+			execute console command "pex group %arg-2% create"
+			execute console command "pex group %arg-2% prefix &7"
+			execute console command "pex group %arg-2% suffix &7"
+			send "&8(&a*&8) &7The group&c %arg-2%&7 was created!"
+		else if arg-1 is "prefix":
+			if arg-2 is not set:
+				send "&8(&a*&8) &cPlease select a group to change!"
+				stop
+			if arg-3 is not set:
+				send "&8(&a*&8) &cSet a prefix to add!"
+				stop
+			if arg-4 is not set:
+				set {_a} to ""
+			else:
+				set {_a} to arg-4
+			set {ranks.%arg-2%.prefix} to "%colored arg-3%%colored {_a}%"
+			execute console command "pex group %arg-2% prefix %arg-3%%{_a}%"
+			send "&8(&a*&8) &7The prefix for&c %arg-2% &7was set to: %{ranks.%arg-2%.prefix}%&7!"
+		else if arg-1 is "suffix":
+			if arg-2 is not set:
+				send "&8(&a*&8) &cPlease select a group to change!"
+				stop
+			if arg-3 is not set:
+				send "&8(&a*&8) &cSet a suffix to add!"
+				stop
+			if arg-4 is not set:
+				set {_a} to ""
+			else:
+				set {_a} to arg-4
+			set {ranks.%arg-2%.suffix} to "%colored arg-3%%colored {_a}%"
+			execute console command "pex group %arg-2% suffix %arg-3%%{_a}%"
+			send "&8(&a*&8) &7The suffix for&c %arg-2% &7was set to: %{ranks.%arg-2%.suffix}%&7!"
+		else if arg-1 is "set":
+			if arg-2 is not set:
+				send "&8(&a*&8) &cPlease select a player to change!"
+				stop
+			set {_p} to arg-2 parsed as player #Fixes a error message
+			if arg-3 is not set:
+				send "&8(&a*&8) &cSelect a group to set the player to!"
+				stop
+			if {ranks.%arg-3%.prefix} is not set:
+				send "&8(&a*&8) &cThat rank does not exist!"
+				stop
+			set {_uuid} to uuid of {_a}
+			set {rank.%{_uuid}%} to arg-3
+			add {_p} to {ranks::%arg-3%::*}
+			execute console command "pex user %{_p}% group set %arg-3%"
+			send "&8(&a*&8) &7The rank for&c %{_p}% &7has been set to:&c %arg-3%&7!"
+			send "&8(&a*&8) &7Your rank was set to&c %arg-3%&7!" to {_p}
+		else if arg-1 is "list" or "groups":
+			make the player execute "pex groups"
+		else if arg-1 is "delete" or "remove":
+			if arg-2 is not set:
+				send "&8(&a*&8) &7Please enter a group to remove!"
+				stop
+			execute console command "pex group %arg-2% delete"
+			loop {ranks::%arg-2%::*}:
+				set {rank.%uuid of loop-value%} to "default"
+			clear {ranks::%arg-2%::*}
+			clear {ranks.%arg-2%.prefix}
+			clear {ranks.%arg-2%.suffix}
+		else if arg-1 is "permission":
+			if arg-2 is "add" or "give":
+				if arg-3 is not set:
+					send "&8(&a*&8) &7Please enter a group to add permissions to!"
+					stop
+				if arg-4 is not set:
+					send "&8(&a*&8) &7Please enter a permission to give!"
+					stop
+				if {ranks.%arg-3%.prefix} is not set:
+					send "&8(&a*&8) &7That rank does not exist!"
+					stop
+				execute console command "pex group %arg-3% add %arg-4%"
+				send "&8(&a*&8) &7Added the permission&c %arg-4% &7to&c %arg-3%&7!"
+			else if arg-2 is "remove" or "delete":
+				if arg-3 is not set:
+					send "&8(&a*&8) &7Please enter a group to remove permissions from!"
+					stop
+				if arg-4 is not set:
+					send "&8(&a*&8) &7Please enter a permission to remove!"
+					stop
+				if {ranks.%arg-3%.prefix} is not set:
+					send "&8(&a*&8) &7That rank does not exist!"
+					stop
+				execute console command "pex group %arg-3% remove %arg-4%"
+				send "&8(&a*&8) &7Removed the permission&c %arg-4% &7from&c %arg-3%&7!"
+			else:
+				send "&8(&a*&8)&7 /rank %arg-1% &c&n%arg-2%"
+		else if arg-1 is "user":
+			if arg-2 is "add" or "give":
+				if arg-3 is not set:
+					send "&8(&a*&8) &7Please enter a user to add permissions to!"
+					stop
+				if arg-4 is not set:
+					send "&8(&a*&8) &7Please enter a permission to give!"
+					stop
+				execute console command "pex user %arg-3% add %arg-4%"
+				send "&8(&a*&8) &7Added the permission&c %arg-4% &7to&c %arg-3%&7!"
+			else if arg-2 is "remove" or "delete":
+				if arg-3 is not set:
+					send "&8(&a*&8) &7Please enter a user to remove permissions from!"
+					stop
+				if arg-4 is not set:
+					send "&8(&a*&8) &7Please enter a permission to remove!"
+					stop
+				execute console command "pex user %arg-3% remove %arg-4%"
+				send "&8(&a*&8) &7Removed the permission&c %arg-4% &7from&c %arg-3%&7!"
+			else:
+				send "&8(&a*&8)&7 /rank %arg-1% &c&n%arg-2%"
+		else:
+			send "&8(&a*&8) &7/rank &c&n%arg-1%"
+on chat:
+	cancel event
+	set {_k} to {kills.%uuid of player%}
+	if {_k} is not set:
+		set {_k} to 0
+	set {_d} to {deaths.%uuid of player%}
+	if {_d} is not set:
+		set {_d} to 0
+	set {_kdr} to {_k}/{_d}
+	if {_kdr} is 0:
+		set {_kdr} to "N/A"
+	set {_msgSent} to "%uncolored message%"
+	if player does not have permission "rank.chat.colors":
+		replace all "&" with "$" in {_msgSent}
+	set {_msg} to "%{ranks.%{rank.%uuid of the player%}%.prefix}%%{nick.%uuid of the player%}%&7%{ranks.%{rank.%uuid of the player%}%.suffix}%: &r%{_msgSent}%||ttp:&7&m----- &7 &7%player%&7 &7&m-----\n\n&7Kills: &6%{_k}%\n&7Deaths: &6%{_d}%\n&7KDR: &6%{_kdr}%\n"
+	replace all "\n" with "%nl%" in {_msg}
+	json("@a",{_msg})
