@@ -1,0 +1,12 @@
+every 1 second:
+    loop all players:
+        wipe loop-player's sidebar
+        set name of sidebar of loop-player to "&8» &6&LEXPANDEDMC &8«"
+        set score "&1" in sidebar of loop-player to 12
+        set score "&6Player:" in sidebar of loop-player to 11
+        set score "&6* &eUsername:&7 %loop-player%" in sidebar of loop-player to 10
+        set score "&6* &eRank:&7 %loop-player's group%" in sidebar of loop-player to 9
+        set score "&6* &EBalance:&7 %loop-player's balance%" in sidebar of loop-player to 8
+        set score "&6* &eClan: &7%{clan::%loop-player%}%" in sidebar of loop-player to 7
+        set score "&2" in sidebar of loop-player to 6
+        set score "&7&oExpandedMC.minehut.gg" in sidebar of loop-player to 2
