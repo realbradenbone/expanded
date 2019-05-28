@@ -1,6 +1,3 @@
-on first join:
-	set {_p} to player
-
 on join:
 	if {rank.%uuid of the player%} is not set:
 		set {rank.%uuid of the player%} to "default"
@@ -204,20 +201,3 @@ command /rank [<text>] [<text>] [<text>] [<text>]:
 				send "&8(&a*&8)&7 /rank %arg-1% &c&n%arg-2%"
 		else:
 			send "&8(&a*&8) &7/rank &c&n%arg-1%"
-on chat:
-	cancel event
-	set {_k} to {kills.%uuid of player%}
-	if {_k} is not set:
-		set {_k} to 0
-	set {_d} to {deaths.%uuid of player%}
-	if {_d} is not set:
-		set {_d} to 0
-	set {_kdr} to {_k}/{_d}
-	if {_kdr} is 0:
-		set {_kdr} to "N/A"
-	set {_msgSent} to "%uncolored message%"
-	if player does not have permission "rank.chat.colors":
-		replace all "&" with "$" in {_msgSent}
-	set {_msg} to "%{ranks.%{rank.%uuid of the player%}%.prefix}%%{nick.%uuid of the player%}%&7%{ranks.%{rank.%uuid of the player%}%.suffix}%: &r%{_msgSent}%||ttp:&7&m----- &7 &7%player%&7 &7&m-----\n\n&7Kills: &6%{_k}%\n&7Deaths: &6%{_d}%\n&7KDR: &6%{_kdr}%\n"
-	replace all "\n" with "%nl%" in {_msg}
-	json("@a",{_msg})
