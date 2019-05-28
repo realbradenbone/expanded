@@ -1,7 +1,7 @@
 every 1 seconds:
 	loop all players:
 		wipe loop-player's sidebar
-		set name of sidebar of loop-player to "&b&lServer Name"
+		set name of sidebar of loop-player to "&eExpanded&6&lMC"
 		set score "" in sidebar of loop-player to 10
 		set score "&bRank:" in sidebar of loop-player to 9
 		set {_prefix} to "%colored loop-player's prefix%"
