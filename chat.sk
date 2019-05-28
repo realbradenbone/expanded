@@ -15,6 +15,10 @@ on chat:
 			message "&7-------------------------------------------"
 			stop
 			
+on chat:
+    cancel event
+        broadcast "%player's prefix% &e%player% %player's suffix% > &f%message%"
+
 command /ping:
 	description: Checks your ping by sending a message back to you!
 	usage: /ping
