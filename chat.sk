@@ -17,7 +17,7 @@ on chat:
 			
 on chat:
     cancel event
-        broadcast "%player's prefix% &7%player% %player's suffix% &8➡ &7%message%"
+        broadcast "%player's prefix% &7%player% %player's suffix% &8> &f%message%"
 
 command /ping:
 	description: Checks your ping by sending a message back to you!
