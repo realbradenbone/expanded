@@ -1,3 +1,6 @@
+on first join:
+	set {_p} to player
+
 on join:
 	if {rank.%uuid of the player%} is not set:
 		set {rank.%uuid of the player%} to "default"
