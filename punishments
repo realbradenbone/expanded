@@ -7,7 +7,7 @@ options:
 
     line: &7&m---------------------------------------
  
-    prefix: &&e&kExpanded&6&lMC
+    prefix: &eExpanded&6&lMC
 	
     color1: &a
 	
