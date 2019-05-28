@@ -1,0 +1,422 @@
+# CREDITS TO CYBERRYAN
+#
+#
+#
+
+options:
+
+    line: &7&m---------------------------------------
+ 
+    prefix: &&e&kExpanded&6&lMC
+	
+    color1: &a
+	
+    color2: &2
+ 
+
+#=====================================================================
+#                         Hard Code!
+#                       Do not touch!
+#=====================================================================
+command /punishments:
+    permission: server.punishments
+    permission message: &cYou dont have the permission to do that!
+    trigger:
+        send "{@line}"
+        send "{@prefix} &8» {@color1}/punishments {@color2}server.punishments"
+        send "{@prefix} &8» {@color1}/warn {@color2}server.warn"
+        send "{@prefix} &8» {@color1}/unwarn {@color2}server.unwarn"
+        send "{@prefix} &8» {@color1}/staffchat {@color2}server.staffchat"
+        send "{@prefix} &8» {@color1}/kick {@color2}server.kick"      
+        send "{@prefix} &8» {@color1}/mute {@color2}server.mute"
+        send "{@prefix} &8» {@color1}/unmute {@color2}server.unmute"
+        send "{@prefix} &8» {@color1}/clearchat {@color2}server.clearchat"
+        send "{@prefix} &8» {@color1}/cc {@color2}server.cc"
+        send "{@prefix} &8» {@color1}/tempban {@color2}server.tempban"
+        send "{@prefix} &8» {@color1}/ban {@color2}server.ban"
+        send "{@prefix} &8» {@color1}/unban {@color2}server.unban"
+        send "{@prefix} &8» {@color1}/ipban {@color2}server.ipban"
+        send "{@prefix} &8» {@color1}/unipban {@color2}server.unipban"
+        send "{@prefix} &8» {@color1}/checkinfo {@color2}server.checkinfo"
+        send "{@prefix} &8» {@color1}/blockinfo {@color2}server.blockinfo"
+        send "{@prefix} &8» {@color1}/resetinfo {@color2}server.resetinfo"
+        send "{@prefix} &8» {@color1}/mutechat {@color2}server.mutechat"
+        send "{@prefix} &8» {@color1}/unmutechat {@color2}server.unmutechat"
+        send "{@prefix} &8» {@color1}/punish {@color2}server.punish"
+        send "{@line}"
+ 
+ #
+ #Staff cmds
+ #
+command /warn [<offlineplayer>] [<text>]:
+    permission: server.warn
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:  
+        if arg-1 is not set:
+            message "{@prefix} &8» &c/warn (Player) (Reason)"
+            stop
+        if arg-2 is not set:
+            message "{@prefix} &8» &c/warn (Player) (Reason)"
+            stop
+        if arg-1 is set:
+            if arg-2 is set:
+                add 1 to {warn.%arg-1%}
+                add 1 to {warned.%arg-1%}
+                if {warned.%arg-1%} is more than 5000:
+                    set {warned.%arg-1%} to 0
+                    make console execute "/minecraft:ban %arg-1% To Many Warns!"
+                    broadcast "{@prefix} &8» {@color1}CONSOLE {@color2}has banned {@color1}%arg-1%"
+                    broadcast "{@color2}Reason &8» {@color1}Over 5000 Warns"
+                    stop
+                if {warned.%arg-1%} is less than 5000:
+                    broadcast "{@prefix} &8» {@color1}%player% {@color2}has warned {@color1}%arg-1%"
+                    broadcast "{@color2}Reason &8» {@color1}%arg-2%"
+                    make console execute "/execute %arg-1% ~ ~ ~ /playsound entity.generic.explode master %arg-1% ~ ~ ~ 1 1"
+                    stop
+		
+command /unwarn [<offlineplayer>]:
+    permission: server.unwarn
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:  
+        if arg-1 is not set:
+            message "{@prefix} &8» &c/unwarn (Player)"
+        if arg-1 is set:
+            add 1 to {unwarn.%arg-1%}
+            broadcast "{@prefix} &8» {@color1}%player% {@color2}has unwarned {@color1}%arg-1%"
+
+command /kick <player> [<text>]:
+    permission: server.kick
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/kick (Player) (Reason)"
+            stop
+        if arg-2 is not set:
+            send "{@prefix} &8» &c/kick (Player) (Reason)"
+            stop
+        if arg-1 is set:
+            if arg-2 is set:
+                broadcast "{@prefix} &8» {@color1}%player% {@color2}has kicked {@color1}%arg-1%"
+                broadcast "{@color2}Reason &8» {@color1}%arg-2%"
+                make console execute "/execute %arg-1% ~ ~ ~ /playsound entity.generic.explode master %arg-1% ~ ~ ~ 1 1"
+                make console execute "/essentials:kick %arg-1% %arg-2%"
+                add 1 to {kick.%arg-1%}
+				
+command /mute [<offlineplayer>] [<text>] [<text>]:
+    aliases: /tmute,/tempmute
+    permission: server.mute
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/mute (Player) (Time) (Reason)"
+            stop
+        if arg-2 is not set:
+            send "{@prefix} &8» &c/mute (Player) (Time) (Reason)"
+            stop
+        if arg-1 is set:
+            if arg-2 is set:
+                if arg-3 is set:
+                    broadcast "{@prefix} {@color1}%player% {@color2}has muted {@color1}%arg-1%"
+                    broadcast "{@color2}Reason: {@color1}%arg-3%"
+                    broadcast "{@color2}Time: {@color1}%arg-2%"
+                    make console execute "/essentials:mute %arg-1% %arg-2%"
+                    make console execute "/execute %arg-1% ~ ~ ~ /playsound entity.generic.explode master %arg-1% ~ ~ ~ 1 1"
+                    add 1 to {mute.%arg-1%}
+ 
+command /unmute [<offlineplayer>]:
+    permission: server.unmute
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/umute (Player)"
+            stop
+        if arg-1 is set:
+            broadcast "{@prefix} {@color1}%player% {@color2}has unmuted {@color1}%arg-1%"
+            make console execute "/essentials:mute %arg-1% 1s"
+            add 1 to {unmute.%arg-1%}
+
+command /tempban [<offlineplayer>] [<text>] [<text>]:
+    aliases: /tban
+    permission: server.tempban
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/tempban (Player) (Time) (Reason)"
+            stop
+        if arg-2 is not set:
+            send "{@prefix} &8» &c/tempban (Player) (Time) (Reason)"
+            stop
+        if arg-1 is set:
+            if arg-2 is set:
+                if arg-3 is set:
+                broadcast "{@prefix} {@color1}%player% {@color2}has tempbanned {@color1}%arg-1%"
+                broadcast "{@color2}Reason: {@color1}%arg-3% "
+                broadcast "{@color2}Time: {@color1}%arg-2%"
+                make console execute "/execute %arg-1% ~ ~ ~ /playsound entity.generic.explode master %arg-1% ~ ~ ~ 1 1"
+                make console execute "/essentials:tempban %arg-1% %arg-2% %arg-3%  "
+                add 1 to {tempban.%arg-1%}
+				
+command /ban [<offlineplayer>] [<text>]:
+    permission: server.ban
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/ban (Player) (Reason)"
+            stop
+        if arg-2 is not set:
+            send "{@prefix} &8» &c/ban (Player) (Reason)"
+            stop
+        if arg-1 is set:
+            if arg-2 is set:
+                broadcast "{@prefix} {@color1}%player% {@color2}has banned {@color1}%arg-1%"
+                broadcast "{@color2}Reason: {@color1}%arg-2%  "
+                make console execute "/execute %arg-1% ~ ~ ~ /playsound entity.generic.explode master %arg-1% ~ ~ ~ 1 1"
+                make console execute "/essentials:ban %arg-1% %arg-2%  "
+                add 1 to {ban.%arg-1%}
+				
+
+command /unban [<offlineplayer>]:
+    permission: server.unban
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/unban (Player)"      
+            stop
+        else:
+            broadcast "{@prefix} &8» {@color1}%player% {@color2}has unbanned {@color1}%arg-1%"
+            add 1 to {unban.%arg-1%}
+            make console execute "/essentials:pardon %arg-1%"
+
+               
+command /ipban [<offlineplayer>] [<text>]:
+    permission: server.ipban
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/ipban (Player) (Reason)"
+            stop
+        if arg-2 is not set:
+            send "{@prefix} &8» &c/ipban (Player) (Reason)"
+            stop
+        if arg-1 is set:
+            if arg-2 is set:
+                broadcast "{@prefix} {@color1}%player% {@color2}has IP-banned {@color1}%arg-1%"
+                broadcast "&cReason: {@color2}%arg-2%"
+                add 1 to {ipban.%IP of arg-1%}
+                make console execute "/essentials:banip %arg-1%"
+                make console execute "/essentials:kick %arg-1%"
+                make console execute "/execute %arg-1% ~ ~ ~ /playsound entity.generic.explode master %arg-1% ~ ~ ~ 1 1"
+ 
+command /unbanip [<offlineplayer>]:
+    permission: server.unbanip
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/unbanip (Player)"
+            stop
+        else:
+            broadcast "{@prefix} {@color1}%player% {@color2}has unbanned {@color1}%arg-1%"
+            make console execute "essentials:unbanip %arg-1%"
+            add 1 to {unban.%arg-1%}
+ 
+command /checkinfo [<offlineplayer>]:
+    permission: server.checkinfo
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if {blocked.%arg-1%} is true:
+            send "{@prefix} &8» &cThis player's info is &l&oBLOCKED&c!"
+            stop
+        if {blocked.%arg-1%} is not set:
+            if arg-1 is not set:
+                send "{@prefix} &8» &c/checkinfo (player)"
+                stop
+            if arg-1 is set:
+                send "{@line}"
+                send "{@prefix} &8» {@color2}Username: {@color1}%arg-1%"
+                send " "  
+                send "{@prefix} &8» {@color2}Warns: {@color1}%{warn.%arg-1%}%"
+                send "{@prefix} &8» {@color2}Unwarns: {@color1}%{unwarn.%arg-1%}%"
+                send "{@prefix} &8» {@color2}Mutes: {@color1}%{mute.%arg-1%}%"
+                send "{@prefix} &8» {@color2}Unmutes: {@color1}%{unmute.%arg-1%}%"              
+                send "{@prefix} &8» {@color2}Kicks: {@color1}%{kick.%arg-1%}%"
+                send "{@prefix} &8» {@color2}Bans: {@color1}%{ban.%arg-1%}%"
+                send "{@prefix} &8» {@color2}Tempbans: {@color1}%{tempban.%arg-1%}%"            
+                send "{@prefix} &8» {@color2}Unbans: {@color1}%{unban.%arg-1%}%"
+                send "{@prefix} &8» {@color2}IP-Bans: {@color1}%{ipban.%IP of arg-1%}%"
+                send " "
+                send "{@prefix} &8» {@color2}IP: {@color1}%IP of arg-1%"
+                send "{@line}"
+				
+
+command /blockinfo [<offlineplayer>]:
+    permission: server.blockinfo
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/blockinfo (Player)"
+            stop
+        if {blocked.%arg-1%} is not set:
+            send "{@prefix} &8» &cYou have blocked %arg-1%'s info!"
+            set {blocked.%arg-1%} to true
+            stop
+        if {blocked.%arg-1%} is true:
+            send "{@prefix} &8» &cYou have unblocked %arg-1%'s info!"
+            delete {blocked.%arg-1%}
+            stop
+ 
+
+ 
+command /resetinfo [<offlineplayer>]:
+    permission: server.resetinfo
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if arg-1 is not set:
+            send "{@prefix} &8» &c/resetinfo (player)"
+            stop
+        else:
+            set {warn.%arg-1%} to 0
+            set {kick.%arg-1%} to 0
+            set {ban.%arg-1%} to 0
+            set {unban.%arg-1%} to 0
+            set {ipban.%IP of arg-1%} to 0
+            send "&cReset all of %arg-1%'s info!"
+#
+#Staff chat + Chat Mute
+#
+ 
+on chat:
+    if {staffchat.%player's uuid%} is set:
+        cancel event
+        loop all players:
+            loop-player has permission "sky.staffchat":
+                send "{@color2}Sky{@color1}Staff &8» %colored player's prefix%%player%%colored player's suffix%&f: &a&l%colored arg 1%" to loop-player
+    else:
+        stop
+on join:
+    delete {staffchat.%player's uuid%}
+ 
+ 
+command /staffchat [<text>]:
+    aliases:/s,/sc,/schat,/sct
+    permission: server.staffchat
+    permission message: {@prefix} &8» &cYou dont have the permission to do that!
+    trigger:
+        if argument 1 is set:
+            loop all players:
+                loop-player has permission "server.staffchat":
+                    send "{@color2}Sky{@color1}Staff &8» %colored player's prefix%%player%%colored player's suffix%&f: &a&l%colored arg 1%" to loop-player
+			
+on chat:
+    if {mute.chat} is true:
+        if player has permission "server.mutechat.bypass":
+            stop
+        else:
+            message "&c(!) &7Chat has been temporarily Muted. &c(!)"
+            cancel event
+command /mutechat [<text>]:
+    permission: server.mutechat
+    permission message: &7You need at least &c&lSr. Mod &7rank to perform this command!
+    aliases: lc
+    trigger:
+        broadcast "{@prefix} &8- {@color1}%player% {@color2}Has muted the chat."
+        make console execute "execute @a ~ ~ ~ /playsound entity.firework.blast master @p ~ ~ ~ 1 1 1"
+        set {mute.chat} to true
+		
+command /unmutechat [<text>]:
+    permission: server.unmutechat
+    permission message: &7You need at least &c&lSr. Mod &7rank to perform this command!
+    aliases: umc
+    trigger:
+        broadcast "{@prefix} &8- {@color1}%player% {@color2}Has unmuted the chat."
+        make console execute "execute @a ~ ~ ~ /playsound entity.firework.blast master @p ~ ~ ~ 1 1 1"
+        set {mute.chat} to false
+		
+		
+#
+# Punishment GUI
+#
+
+#
+# Requires SkQuery
+#
+
+command /punish [<offline player>]:
+    permission: server.punish
+    permission message: {@color1}(!) Sorry you don't have enough permission to execute this command!
+    aliases: /p
+    trigger:
+        open chest with 6 rows named "&9Click a punishment for {@color1}%arg-1%" to player
+        format slot 0 of player with gray glass named "&7" to be unstealable
+        format slot 1 of player with gray glass named "&7" to be unstealable
+        format slot 2 of player with gray glass named "&7" to be unstealable
+        format slot 3 of player with gray glass named "&7" to be unstealable
+        format slot 4 of player with gray glass named "&7" to be unstealable
+        format slot 5 of player with gray glass named "&7" to be unstealable
+        format slot 6 of player with gray glass named "&7" to be unstealable
+        format slot 7 of player with gray glass named "&7" to be unstealable
+        format slot 8 of player with gray glass named "&7" to be unstealable
+        format slot 9 of player with gray glass named "&7" to be unstealable
+        format slot 10 of player with gray glass named "&7" to be unstealable
+        format slot 11 of player with diamond sword named "&8({@color2}*&8) {@color1}KillAura &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for KillAura" to close then run [make player execute command "tempban %arg-1% 75d KillAura"]
+        format slot 12 of player with feather named "&7&8({@color2}*&8) {@color1}Flight &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for Flight||&7" to close then run [make player execute command "tempban %arg-1% 15d Fly"]
+        format slot 13 of player with rabbit_foot named "&8({@color2}*&8) {@color1}Speed / Bhop &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for Speed / Bhop ||&7" to close then run [make player execute command "tempban %arg-1% 15d Speed / Bhop"]
+        format slot 14 of player with tnt named "&8({@color2}*&8) {@color1}Nuker &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for Nuker ||&7" to close then run [make player execute command "tempban %arg-1% 10d Nuker"]
+        format slot 15 of player with compass named "&8({@color2}*&8) {@color1}Tracers &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for Tracers ||&7" to close then run [make player execute command "tempban %arg-1% 10d Tracers"]
+        format slot 16 of player with gray glass named "&7" to be unstealable
+        format slot 17 of player with gray glass named "&7" to be unstealable
+        format slot 18 of player with gray glass named "&7" to be unstealable
+        format slot 19 of player with fishing_rod named "&8({@color2}*&8) {@color1}Anti KB &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for Anti KB ||&7" to close then run [make player execute command "tempban %arg-1% 75d Anti KB"]
+        format slot 20 of player with diamond_pickaxe named "&8({@color2}*&8) {@color1}Auto Miner &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for Auto Miner ||&7" to close then run [make player execute command "tempban %arg-1% 10d Auto Miner"]
+        format slot 21 of player with golden_carrot named "&8({@color2}*&8) {@color1}No Slowdown &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for No Slowdown ||&7" to close then run [make player execute command "tempban %arg-1% 50d No Slowdown"]
+        format slot 22 of player with paper named "&8({@color2}*&8) {@color1}Spamming &7&o(( WARN )) &8({@color2}*&8)" with lore "&7||&7Click this to warn||{@color1}%arg-1% &7for Spamming ||&7" to close then run [make player execute command "warn %arg-1% Spamming"]
+        format slot 23 of player with paper named "&8({@color2}*&8) {@color1}Spamming &7&o(( MUTE )) &8({@color2}*&8)" with lore "&7||&7Click this to mute||{@color1}%arg-1% &7for Spamming ||&7" to close then run [make player execute command "mute %arg-1% 30min Spamming"]
+        format slot 24 of player with hopper named "&8({@color2}*&8) {@color1}Caps &7&o(( WARN )) &8({@color2}*&8)" with lore "&7||&7Click this to warn||{@color1}%arg-1% &7for Caps ||&7" to close then run [make player execute command "warn %arg-1% Caps"]
+        format slot 25 of player with hopper named "&8({@color2}*&8) {@color1}Caps &7&o(( MUTE )) &8({@color2}*&8)" with lore "&7||&7Click this to mute||{@color1}%arg-1% &7for Caps ||&7" to close then run [make player execute command "mute %arg-1% 10min Caps"]
+        format slot 26 of player with gray glass named "&7" to be unstealable
+        format slot 27 of player with gray glass named "&7" to be unstealable
+        format slot 28 of player with gunpowder named "&8({@color2}*&8) {@color1}Promoting Spam &7&o(( WARN )) &8({@color2}*&8)" with lore "&7||&7Click this to warn||{@color1}%arg-1% &7for Promoting Spam ||&7" to close then run [make player execute command "warn %arg-1% Promoting Spam"]
+        format slot 29 of player with gunpowder named "&8({@color2}*&8) {@color1}Promoting Spam &7&o(( MUTE )) &8({@color2}*&8)" with lore "&7||&7Click this to warn||{@color1}%arg-1% &7for Promoting Spam ||&7" to close then run [make player execute command "mute %arg-1% 30min Promoting Spam"]
+        format slot 30 of player with barrier named "&8({@color2}*&8) {@color1}Advertising &8({@color2}*&8)" with lore "&7||&7Click this to PERM ban||{@color1}%arg-1% &7for Advertising ||&7" to close then run [make player execute command "ban %arg-1% Advertising"]
+        format slot 31 of player with torch named "&8({@color2}*&8) {@color1}Annoying Staff &7&o(( WARN )) &8({@color2}*&8)" with lore "&7||&7Click this to warn||{@color1}%arg-1% &7for Promoting Spam ||&7" to close then run [make player execute command "warn %arg-1% Annoying Staff"]
+        format slot 32 of player with torch named "&8({@color2}*&8) {@color1}Annoying Staff &7&o(( MUTE )) &8({@color2}*&8)" with lore "&7||&7Click this to warn||{@color1}%arg-1% &7for Promoting Spam ||&7" to close then run [make player execute command "mute %arg-1% 20min Annoying Staff"]
+        format slot 33 of player with lever named "&8({@color2}*&8) &cAbuse / Spamming /Report &7&o(( WARN )) &8({@color2}*&8)" with lore "&7||&7Click this to warn ||&7{@color1}%arg-1% &7for Abuse / Spamming /Report ||&7" to close then run [make player execute command "warn %arg-1% Abusing // Spamming /Report"]
+        format slot 34 of player with lever named "&8({@color2}*&8) &cAbuse / Spamming /Report &7&o(( KICK )) &8({@color2}*&8)" with lore "&7||&7Click this to kick ||&7{@color1}%arg-1% &7for Abuse / Spamming /Report ||&7" to close then run [make player execute command "kick %arg-1% Abusing // Spamming /Report"]
+        format slot 35 of player with gray glass named "&7" to be unstealable
+        format slot 36 of player with gray glass named "&7" to be unstealable
+        format slot 37 of player with gray glass named "&7" to be unstealable
+        format slot 38 of player with piston named "&8({@color2}*&8) &cCombat Logging &7&o &8({@color2}*&8)" with lore "&7||&7Click this to punish||{@color1}%arg-1% &7for Combat Logging ||&7" to close then run [make player execute command "tempban %arg-1% 10m Combat Logging"]
+        format slot 39 of player with iron sword named "&8({@color2}*&8) {@color1}Vulgar Language &7&o(( WARN )) &8({@color2}*&8)" with lore "&7||&7Click this to warn ||&7{@color1}%arg-1% &7for Vulgar Language ||&7" to close then run [make player execute command "warn %arg-1% Cussing "]
+        format slot 40 of player with iron sword named "&8({@color2}*&8) {@color1}Vulgar Language &7&o(( MUTE )) &8({@color2}*&8)" with lore "&7||&7Click this to mute ||&7{@color1}%arg-1% &7for Vulgar Language ||&7" to close then run [make player execute command "mute %arg-1% 30m Cussing "]
+        format slot 41 of player with red glass named "&cCOMING SOON!" with lore "&7||&7Message &4Ld2(HASHTAG)1261 &7On discord||&7ideas on what this space should be!||&7" to be unstealable
+        format slot 42 of player with red glass named "&cCOMING SOON!" with lore "&7||&7Message &4Ld2(HASHTAG)1261 &7On discord||&7ideas on what this space should be!||&7" to be unstealable
+        format slot 43 of player with red glass named "&cCOMING SOON!" with lore "&7||&7Message &4Ld2(HASHTAG)1261 &7On discord||&7ideas on what this space should be!||&7" to be unstealable
+        format slot 44 of player with gray glass named "&7" to be unstealable
+        format slot 45 of player with gray glass named "&7" to be unstealable
+        format slot 46 of player with bedrock named "&8({@color2}*&8) {@color1}Perm Ban &8({@color2}*&8)" with lore "&7||&7Click this to Perm Ban {@color1}%arg-1%||&7" to close then run [make player execute command "ban %arg-1% Manual Perm Ban"]
+        format slot 47 of player with cyan dye named "&8({@color2}*&8) {@color1}Unban &8({@color2}*&8)" with lore "&7||&7Click this to Unban {@color1}%arg-1%||&7" to close then run [make player execute command "unban %arg-1%"]
+        format slot 48 of player with gray glass named "&7" to be unstealable
+        format slot 49 of player with bedrock named "&8({@color2}*&8) {@color1}Perm Mute &8({@color2}*&8)" with lore "&7||&7Click this to Perm Mute {@color1}%arg-1%||&7" to close then run [make player execute command "mute %arg-1% Manual Perm Mute"]
+        format slot 50 of player with light blue dye named "&8({@color2}*&8) {@color1}Unmute &8({@color2}*&8)" with lore "&7||&7Click this to Unmute {@color1}%arg-1%||&7" to close then run [make player execute command "unmute %arg-1%"]
+        format slot 51 of player with gray glass named "&7" to be unstealable
+        format slot 52 of player with redstone named "&8({@color2}*&8) {@color1}IP-Ban &8({@color2}*&8)" with lore "&7||&7Click this to IP-Ban||{@color1}%arg-1% &7for Advertising ||&7" to close then run [make player execute command "ipban %arg-1% Manual IP Ban "]
+        format slot 53 of player with cyan glass named "&8({@color2}*&8) {@color1}Skript made by Ld2 &8({@color2}*&8)" to be unstealable
+	
+		
+#
+# Extra Stuff!
+#
+
+command /clearchat:
+	permission: sky.helper
+	trigger:
+		loop 600 times:
+			broadcast " "
+		broadcast "{@prefix} &8» &cChat has been cleared by &4%player%&c!"
+
+command /cc:
+	permission: sky.helper
+	trigger:
+		loop 1000 times:
+			broadcast "&7"
+		broadcast "{@prefix} &8» &cChat has been cleared by &4%player%&c!"
+	
