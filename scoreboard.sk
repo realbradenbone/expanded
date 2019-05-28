@@ -1,12 +1,21 @@
-every 1 second:
-    loop all players:
-        wipe loop-player's sidebar
-        set name of sidebar of loop-player to "&8» &6&LEXPANDEDMC &8«"
-        set score "&1" in sidebar of loop-player to 12
-        set score "&6Player:" in sidebar of loop-player to 11
-        set score "&6* &eUsername:&7 %loop-player%" in sidebar of loop-player to 10
-        set score "&6* &eRank:&7 %loop-player's group%" in sidebar of loop-player to 9
-        set score "&6* &EBalance:&7 %loop-player's balance%" in sidebar of loop-player to 8
-        set score "&6* &eClan: &7%{clan::%loop-player%}%" in sidebar of loop-player to 7
-        set score "&2" in sidebar of loop-player to 6
-        set score "&7&oExpandedMC.minehut.gg" in sidebar of loop-player to 2
+every 1 seconds:
+	loop all players:
+		wipe loop-player's sidebar
+		set name of sidebar of loop-player to "&b&lServer Name"
+		set score "" in sidebar of loop-player to 10
+		set score "&bRank:" in sidebar of loop-player to 9
+		set {_prefix} to "%colored loop-player's prefix%"
+		replace all "[" and "]" with "" in {_prefix}
+		set {_suffix} to "%colored loop-player's suffix%"
+		replace all "[" and "]" with "" in {_suffix}
+		if length of {_suffix} is greater than 2:
+			set score " %{_prefix}% &8+ %{_suffix}%" in sidebar of loop-player to 8
+		else:
+			set score " %{_prefix}%" in sidebar of loop-player to 8
+		set score "&d" in sidebar of loop-player to 7
+		set score "&bMoney&8:" in sidebar of loop-player to 6
+		set score " &f%loop-player's balance%" in sidebar of loop-player to 5
+		set score "&e" in sidebar of loop-player to 4
+		set score "&bOnline&8:" in sidebar of loop-player to 3
+		set score " &f%number of all players%&8/&f100" in sidebar of loop-player to 2
+		set score "&2" in sidebar of loop-player to 1
