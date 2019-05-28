@@ -1,0 +1,1755 @@
+options:
+    BUYstone: 2
+    BUYcobblestone: 1
+    BUYmoss: 10
+    BUYdirt: 20
+    BUYgrass: 80
+    BUYmycelium: 30
+    BUYsand: 5
+    BUYgravel: 3
+    BUYclay: 5
+    BUYhardenedclay: 5
+    BUYlog: 4
+    BUYwool: 5
+    BUYquartz: 10
+    BUYsnow: 2
+    BUYglass: 10
+    BUYice: 50
+    BUYpackedice: 80
+    BUYendstone: 20
+    BUYobsidian: 300
+
+    BUYapple: 5
+    BUYgapple: 50
+    BUYgodapple: 500
+    BUYbread: 5
+    BUYpork: 10
+    BUYsteak: 10
+    BUYcookie: 2
+    BUYchick: 10
+    BUYfish: 10
+    BUYsalmon: 10
+    BUYcake: 30
+    BUYmushroom: 10
+    BUYpotato: 3
+    BUYcarrot: 3
+
+    BUYemerald: 30
+    BUYdiamond: 25
+    BUYgold: 15
+    BUYiron: 10
+    BUYcoal: 5
+    BUYredstone: 3
+    BUYlapis: 3
+
+    BUYrepeater: 10
+    BUYcomparator: 15
+    BUYspiston: 10
+    BUYpiston: 10
+    BUYdispenser: 10
+    BUYhopper: 50
+    BUYdlsensor: 50
+
+    BUYwheats: 2
+    BUYwheat: 5
+    BUYsapling0: 5
+    BUYsapling1: 5
+    BUYsapling2: 5
+    BUYsapling3: 5
+    BUYvine: 10
+    BUYwaterlily: 20
+    BUYmelons: 2
+    BUYmelon: 10
+    BUYpumpkins: 2
+    BUYpumpkin: 10
+    BUYcane: 10
+    BUYcactus: 10
+    
+    BUYwbucket: 200
+    BUYlbucket: 500
+    BUYbucket: 100
+    BUYepearl: 40
+    BUYsnowball: 2
+    BUYnetherstar: 100000
+    BUYechest: 1000
+    BUYnametag: 50
+    BUYlead: 30
+    BUYstring: 5
+    BUYbone: 5
+    BUYdhorse: 150
+    BUYenchbottle: 10
+    BUYenchtable: 1000
+
+    BUYpig: 10000
+    BUYcow: 15000
+    BUYchicken: 10000
+    BUYsheep: 15000
+    BUYvillager: 100000
+    BUYrabbit: 2000
+    BUYhorse: 50000
+    BUYsquid: 2000
+    BUYocelot: 2000
+    BUYwolf: 5000
+    BUYmushcow: 20000
+    
+    
+    
+    SELLstone: 1
+    SELLcobblestone: 0.5
+    SELLmoss: 5
+    SELLdirt: 10
+    SELLgrass: 40
+    SELLmycelium: 15
+    SELLsand: 2.5
+    SELLgravel: 1.5
+    SELLclay: 2.5
+    SELLhardenedclay: 2.5
+    SELLlog: 2
+    SELLwool: 2.5
+    SELLquartz: 5
+    SELLsnow: 1
+    SELLglass: 5
+    SELLice: 25
+    SELLpackedice: 40
+    SELLendstone: 10
+    SELLobsidian: 150
+
+    SELLapple: 2.5
+    SELLgapple: 25
+    SELLgodapple: 250
+    SELLbread: 2.5
+    SELLpork: 5
+    SELLsteak: 5
+    SELLcookie: 1
+    SELLchick: 5
+    SELLfish: 5
+    SELLsalmon: 5
+    SELLcake: 15
+    SELLmushroom: 5
+    SELLpotato: 1.5
+    SELLcarrot: 1.5
+
+    SELLemerald: 15
+    SELLdiamond: 12.5
+    SELLgold: 7.5
+    SELLiron: 5
+    SELLcoal: 2.5
+    SELLredstone: 1.5
+    SELLlapis: 1.5
+
+    SELLrepeater: 5
+    SELLcomparator: 7.5
+    SELLspiston: 5
+    SELLpiston: 5
+    SELLdispenser: 5
+    SELLhopper: 25
+    SELLdlsensor: 25
+
+    SELLwheats: 1
+    SELLwheat: 2.5
+    SELLsapling0: 2.5
+    SELLsapling1: 2.5
+    SELLsapling2: 2.5
+    SELLsapling3: 2.5
+    SELLvine: 5
+    SELLwaterlily: 10
+    SELLmelons: 1
+    SELLmelon: 5
+    SELLpumpkins: 1
+    SELLpumpkin: 5
+    SELLcane: 5
+    SELLcactus: 5
+
+    SELLwbucket: 100
+    SELLlbucket: 250
+    SELLbucket: 50
+    SELLepearl: 20
+    SELLsnowball: 1
+    SELLnetherstar: 50000
+    SELLechest: 500
+    SELLnametag: 25
+    SELLlead: 15
+    SELLstring: 2.5
+    SELLbone: 2.5
+    SELLdhorse: 75
+    SELLenchbottle: 5
+    SELLenchtable: 500
+
+    SELLpig: 5000
+    SELLcow: 7500
+    SELLchicken: 5000
+    SELLsheep: 7500
+    SELLvillager: 50000
+    SELLrabbit: 1000
+    SELLhorse: 2500
+    SELLsquid: 1000
+    SELLocelot: 1000
+    SELLwolf: 2500
+    SELLmushcow: 10000
+
+
+command /shop [<text>]:
+    permission: command.shop
+    permission message: [&c&l!&f] You don't have permission
+    trigger:
+        if arg 1 is not set:
+            if {wait.%player%} does not exist:
+                set {wait.%player%} to false
+            if {wait.%player%} is true:
+                wait 3 ticks
+                set {wait.%player%} to false
+            open chest with 5 rows named "&9Shop" to player
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            format slot 19 of player with grass named "&4&lBlocks" with lore "&7Click to open the||&4Blocks &7shop" to run [make player execute command "/shop blocks"]
+            format slot 20 of player with apple named "&c&lFood" with lore "&7Click to open the||&cFood &7shop" to run [make player execute command "/shop food"]
+            format slot 21 of player with diamond named "&6&lMinerals" with lore "&7Click to open the||&6Minerals &7shop" to run [make player execute command "/shop minerals"]
+            format slot 22 of player with oak sapling named "&e&lNature" with lore "&7Click to open the||&eNature &7shop" to run [make player execute command "/shop nature"]
+            format slot 23 of player with spawn egg named "&a&lEggs" with lore "&7Click to open the||&aEggs &7shop" to run [make player execute command "/shop egg"]
+            format slot 24 of player with redstone named "&2&lRedstone" with lore "&7Click to open the||&2Redstone &7shop" to run [make player execute command "/shop redstone"]
+            format slot 25 of player with saddle named "&9&lMiscellaneous" with lore "&7Click to open the||&9Miscellaneous &7shop" to run [make player execute command "/shop mix"]
+            format slot 40 of player with 166 named "&7Close" to close
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+        if arg 1 is "blocks":
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            set {inshop.%player%} to "Shop" 
+            format slot 10 of player with stone to run [set {object.%player%} to stone]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 11 of player with cobblestone to run [set {object.%player%} to cobblestone]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 12 of player with mossy cobblestone to run [set {object.%player%} to mossy cobblestone]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 13 of player with dirt to run [set {object.%player%} to dirt]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 14 of player with grass to run [set {object.%player%} to grass]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 15 of player with mycelium to run [set {object.%player%} to mycelium]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 16 of player with sand to run [set {object.%player%} to sand]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 19 of player with gravel to run [set {object.%player%} to gravel]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 20 of player with clay block to run [set {object.%player%} to clay block]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 21 of player with hardened clay to run [set {object.%player%} to hardened clay]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 22 of player with oak wood to run [set {object.%player%} to oak wood block]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 23 of player with spruce wood to run [set {object.%player%} to spruce wood block]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 24 of player with birch wood to run [set {object.%player%} to birch wood block]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 25 of player with wool:0 to run [set {object.%player%} to wool:0]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 28 of player with quartz block to run [set {object.%player%} to quartz block]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 29 of player with snow to run [set {object.%player%} to snow]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 30 of player with glass to run [set {object.%player%} to glass]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 31 of player with ice to run [set {object.%player%} to ice]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 32 of player with packed ice to run [set {object.%player%} to packed ice]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 33 of player with end stone to run [set {object.%player%} to end stone]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 34 of player with obsidian to run [set {object.%player%} to obsidian]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[set {fromgui.%player%} to true]->[make player execute command "/shopback"]
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+        if arg 1 is "food":
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            set {inshop.%player%} to "Shop" 
+            format slot 10 of player with apple to run [set {object.%player%} to apple]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 11 of player with golden apple:0 to run [set {object.%player%} to golden apple:0]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 12 of player with golden apple:1 to run [set {object.%player%} to golden apple:1]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 13 of player with bread to run [set {object.%player%} to bread]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 14 of player with cooked porkchop to run [set {object.%player%} to cooked porkchop]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 15 of player with steak to run [set {object.%player%} to steak]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 16 of player with cookie to run [set {object.%player%} to cookie]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 19 of player with cooked chicken to run [set {object.%player%} to cooked chicken]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 20 of player with cooked fish to run [set {object.%player%} to cooked fish]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 21 of player with cooked salmon to run [set {object.%player%} to cooked salmon]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 22 of player with cake item to run [set {object.%player%} to cake item]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 23 of player with mushroom stew to run [set {object.%player%} to mushroom stew]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 24 of player with carrot to run [set {object.%player%} to carrot]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 25 of player with potato to run [set {object.%player%} to potato]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+        if arg 1 is "minerals":
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            set {inshop.%player%} to "Shop" 
+            format slot 10 of player with emerald to run [set {object.%player%} to emerald]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 11 of player with diamond to run [set {object.%player%} to diamond]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 12 of player with gold ingot to run [set {object.%player%} to gold ingot]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 13 of player with iron ingot to run [set {object.%player%} to iron ingot]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 14 of player with coal to run [set {object.%player%} to coal item]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 15 of player with lapis lazuli to run [set {object.%player%} to lapis lazuli]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 16 of player with redstone to run [set {object.%player%} to redstone]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+        if arg 1 is "redstone":
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            set {inshop.%player%} to "Shop" 
+            format slot 10 of player with redstone repeater item to run [set {object.%player%} to redstone repeater item]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 11 of player with redstone comparator item to run [set {object.%player%} to redstone comparator item]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 12 of player with sticky piston base to run [set {object.%player%} to sticky piston base]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 13 of player with piston base to run [set {object.%player%} to piston base]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 14 of player with dispenser to run [set {object.%player%} to dispenser]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 15 of player with hopper to run [set {object.%player%} to hopper]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 16 of player with daylight sensor to run [set {object.%player%} to daylight sensor]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+        if arg 1 is "nature":
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            set {inshop.%player%} to "Shop" 
+            format slot 10 of player with sapling:0 to run [set {object.%player%} to sapling:0]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 11 of player with sapling:1 to run [set {object.%player%} to sapling:1]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 12 of player with sapling:2 to run [set {object.%player%} to sapling:2]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 13 of player with sapling:3 to run [set {object.%player%} to sapling:3]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 14 of player with wheat seeds to run [set {object.%player%} to wheat seeds]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 15 of player with pumpkin seeds to run [set {object.%player%} to pumpkin seeds]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 16 of player with melon seeds to run [set {object.%player%} to melon seeds]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 19 of player with wheat to run [set {object.%player%} to wheat]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 20 of player with pumpkin to run [set {object.%player%} to pumpkin]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 21 of player with melon block to run [set {object.%player%} to melon block]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 22 of player with vines to run [set {object.%player%} to vines]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 23 of player with lily pad to run [set {object.%player%} to lily pad]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 24 of player with sugar cane item to run [set {object.%player%} to sugar cane item]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 25 of player with cactus to run [set {object.%player%} to cactus]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+        if arg 1 is "mix":
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            set {inshop.%player%} to "Shop" 
+            format slot 10 of player with water bucket to run [set {object.%player%} to water bucket]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 11 of player with lava bucket to run [set {object.%player%} to lava bucket]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 12 of player with bucket to run [set {object.%player%} to bucket]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 13 of player with ender pearl to run [set {object.%player%} to ender pearl]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 14 of player with snowball to run [set {object.%player%} to snowball]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 15 of player with nether star to run [set {object.%player%} to nether star]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 16 of player with ender chest to run [set {object.%player%} to ender chest]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 19 of player with name tag to run [set {object.%player%} to name tag]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 20 of player with lead to run [set {object.%player%} to lead]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 21 of player with string to run [set {object.%player%} to string]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 22 of player with bone to run [set {object.%player%} to bone]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 23 of player with diamond horse armor to run [set {object.%player%} to diamond horse armor]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 24 of player with experience bottle to run [set {object.%player%} to experience bottle]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 25 of player with enchantment table to run [set {object.%player%} to enchantment table]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+        if arg 1 is "egg":
+            set {_slot} to 0
+            loop 45 times:
+                format slot {_slot} of player with gray glass named "" to be unstealable
+                add 1 to {_slot}
+            set {inshop.%player%} to "Shop" 
+            format slot 10 of player with spawn egg:90 to run [set {object.%player%} to spawn egg:90]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 11 of player with spawn egg:91 to run [set {object.%player%} to spawn egg:91]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 12 of player with spawn egg:92 to run [set {object.%player%} to spawn egg:92]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 13 of player with spawn egg:93 to run [set {object.%player%} to spawn egg:93]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 14 of player with spawn egg:94 to run [set {object.%player%} to spawn egg:94]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 15 of player with spawn egg:95 to run [set {object.%player%} to spawn egg:95]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 16 of player with spawn egg:96 to run [set {object.%player%} to spawn egg:96]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 19 of player with spawn egg:98 to run [set {object.%player%} to spawn egg:98]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 20 of player with spawn egg:100 to run [set {object.%player%} to spawn egg:100]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 21 of player with spawn egg:101 to run [set {object.%player%} to spawn egg:101]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 22 of player with spawn egg:120 to run [set {object.%player%} to spawn egg:120]->[set {fromgui.%player%} to true]->[make player execute command "/shop pay"]
+            format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[set {fromgui.%player%} to true]->[make player execute command "/shopback"]
+            format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        if arg 1 is "pay":
+            if {fromgui.%player%} is true:
+                set {_slot} to 0
+                loop 45 times:
+                    format slot {_slot} of player with gray glass named "" to be unstealable
+                    add 1 to {_slot}
+                format slot 21 of player with orange glass named "&6&lBuy &7[Click]" to run [set {fromgui.%player%} to true]->[make player execute command "/shop buy"]
+                format slot 23 of player with blue glass named "&9&lSell &7[Click]" to run [set {fromgui.%player%} to true]->[make player execute command "/shop sell"]
+                format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+                if {object.%player%} is enchantment table:
+                    set {cost.%player%.1} to {@BUYenchtable}
+                    set {cost.%player%.4} to ({@BUYenchtable} * 4)
+                    set {cost.%player%.12} to ({@BUYenchtable} * 12)
+                    set {cost.%player%.32} to ({@BUYenchtable} * 32)
+                    set {cost.%player%.64} to ({@BUYenchtable} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is experience bottle:
+                    set {cost.%player%.1} to {@BUYenchbottle}
+                    set {cost.%player%.4} to ({@BUYenchbottle} * 4)
+                    set {cost.%player%.12} to ({@BUYenchbottle} * 12)
+                    set {cost.%player%.32} to ({@BUYenchbottle} * 32)
+                    set {cost.%player%.64} to ({@BUYenchbottle} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is diamond horse armor:
+                    set {cost.%player%.1} to {@BUYdhorse}
+                    set {cost.%player%.4} to ({@BUYdhorse} * 4)
+                    set {cost.%player%.12} to ({@BUYdhorse} * 12)
+                    set {cost.%player%.32} to ({@BUYdhorse} * 32)
+                    set {cost.%player%.64} to ({@BUYdhorse} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is bone:
+                    set {cost.%player%.1} to {@BUYbone}
+                    set {cost.%player%.4} to ({@BUYbone} * 4)
+                    set {cost.%player%.12} to ({@BUYbone} * 12)
+                    set {cost.%player%.32} to ({@BUYbone} * 32)
+                    set {cost.%player%.64} to ({@BUYbone} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is string:
+                    set {cost.%player%.1} to {@BUYstring}
+                    set {cost.%player%.4} to ({@BUYstring} * 4)
+                    set {cost.%player%.12} to ({@BUYstring} * 12)
+                    set {cost.%player%.32} to ({@BUYstring} * 32)
+                    set {cost.%player%.64} to ({@BUYstring} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is lead:
+                    set {cost.%player%.1} to {@BUYlead}
+                    set {cost.%player%.4} to ({@BUYlead} * 4)
+                    set {cost.%player%.12} to ({@BUYlead} * 12)
+                    set {cost.%player%.32} to ({@BUYlead} * 32)
+                    set {cost.%player%.64} to ({@BUYlead} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is name tag:
+                    set {cost.%player%.1} to {@BUYnametag}
+                    set {cost.%player%.4} to ({@BUYnametag} * 4)
+                    set {cost.%player%.12} to ({@BUYnametag} * 12)
+                    set {cost.%player%.32} to ({@BUYnametag} * 32)
+                    set {cost.%player%.64} to ({@BUYnametag} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is ender chest:
+                    set {cost.%player%.1} to {@BUYechest}
+                    set {cost.%player%.4} to ({@BUYechest} * 4)
+                    set {cost.%player%.12} to ({@BUYechest} * 12)
+                    set {cost.%player%.32} to ({@BUYechest} * 32)
+                    set {cost.%player%.64} to ({@BUYechest} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is nether star:
+                    set {cost.%player%.1} to {@BUYnetherstar}
+                    set {cost.%player%.4} to ({@BUYnetherstar} * 4)
+                    set {cost.%player%.12} to ({@BUYnetherstar} * 12)
+                    set {cost.%player%.32} to ({@BUYnetherstar} * 32)
+                    set {cost.%player%.64} to ({@BUYnetherstar} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is snowball:
+                    set {cost.%player%.1} to {@BUYsnowball}
+                    set {cost.%player%.4} to ({@BUYsnowball} * 4)
+                    set {cost.%player%.12} to ({@BUYsnowball} * 12)
+                    set {cost.%player%.32} to ({@BUYsnowball} * 32)
+                    set {cost.%player%.64} to ({@BUYsnowball} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is ender pearl:
+                    set {cost.%player%.1} to {@BUYepearl}
+                    set {cost.%player%.4} to ({@BUYepearl} * 4)
+                    set {cost.%player%.12} to ({@BUYepearl} * 12)
+                    set {cost.%player%.32} to ({@BUYepearl} * 32)
+                    set {cost.%player%.64} to ({@BUYepearl} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is bucket:
+                    set {cost.%player%.1} to {@BUYbucket}
+                    set {cost.%player%.4} to ({@BUYbucket} * 4)
+                    set {cost.%player%.12} to ({@BUYbucket} * 12)
+                    set {cost.%player%.32} to ({@BUYbucket} * 32)
+                    set {cost.%player%.64} to ({@BUYbucket} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is lava bucket:
+                    set {cost.%player%.1} to {@BUYlbucket}
+                    set {cost.%player%.4} to ({@BUYlbucket} * 4)
+                    set {cost.%player%.12} to ({@BUYlbucket} * 12)
+                    set {cost.%player%.32} to ({@BUYlbucket} * 32)
+                    set {cost.%player%.64} to ({@BUYlbucket} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is water bucket:
+                    set {cost.%player%.1} to {@BUYwbucket}
+                    set {cost.%player%.4} to ({@BUYwbucket} * 4)
+                    set {cost.%player%.12} to ({@BUYwbucket} * 12)
+                    set {cost.%player%.32} to ({@BUYwbucket} * 32)
+                    set {cost.%player%.64} to ({@BUYwbucket} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is spawn egg:120:
+                    set {cost.%player%.1} to {@BUYvillager}
+                    set {cost.%player%.4} to ({@BUYvillager} * 4)
+                    set {cost.%player%.12} to ({@BUYvillager} * 12)
+                    set {cost.%player%.32} to ({@BUYvillager} * 32)
+                    set {cost.%player%.64} to ({@BUYvillager} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:100:
+                    set {cost.%player%.1} to {@BUYhorse}
+                    set {cost.%player%.4} to ({@BUYhorse} * 4)
+                    set {cost.%player%.12} to ({@BUYhorse} * 12)
+                    set {cost.%player%.32} to ({@BUYhorse} * 32)
+                    set {cost.%player%.64} to ({@BUYhorse} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:101:
+                    set {cost.%player%.1} to {@BUYrabbit}
+                    set {cost.%player%.4} to ({@BUYrabbit} * 4)
+                    set {cost.%player%.12} to ({@BUYrabbit} * 12)
+                    set {cost.%player%.32} to ({@BUYrabbit} * 32)
+                    set {cost.%player%.64} to ({@BUYrabbit} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:98:
+                    set {cost.%player%.1} to {@BUYocelot}
+                    set {cost.%player%.4} to ({@BUYocelot} * 4)
+                    set {cost.%player%.12} to ({@BUYocelot} * 12)
+                    set {cost.%player%.32} to ({@BUYocelot} * 32)
+                    set {cost.%player%.64} to ({@BUYocelot} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:96:
+                    set {cost.%player%.1} to {@BUYmushcow}
+                    set {cost.%player%.4} to ({@BUYmushcow} * 4)
+                    set {cost.%player%.12} to ({@BUYmushcow} * 12)
+                    set {cost.%player%.32} to ({@BUYmushcow} * 32)
+                    set {cost.%player%.64} to ({@BUYmushcow} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:95:
+                    set {cost.%player%.1} to {@BUYwolf}
+                    set {cost.%player%.4} to ({@BUYwolf} * 4)
+                    set {cost.%player%.12} to ({@BUYwolf} * 12)
+                    set {cost.%player%.32} to ({@BUYwolf} * 32)
+                    set {cost.%player%.64} to ({@BUYwolf} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:94:
+                    set {cost.%player%.1} to {@BUYsquid}
+                    set {cost.%player%.4} to ({@BUYsquid} * 4)
+                    set {cost.%player%.12} to ({@BUYsquid} * 12)
+                    set {cost.%player%.32} to ({@BUYsquid} * 32)
+                    set {cost.%player%.64} to ({@BUYsquid} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:93:
+                    set {cost.%player%.1} to {@BUYchicken}
+                    set {cost.%player%.4} to ({@BUYchicken} * 4)
+                    set {cost.%player%.12} to ({@BUYchicken} * 12)
+                    set {cost.%player%.32} to ({@BUYchicken} * 32)
+                    set {cost.%player%.64} to ({@BUYchicken} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:92:
+                    set {cost.%player%.1} to {@BUYcow}
+                    set {cost.%player%.4} to ({@BUYcow} * 4)
+                    set {cost.%player%.12} to ({@BUYcow} * 12)
+                    set {cost.%player%.32} to ({@BUYcow} * 32)
+                    set {cost.%player%.64} to ({@BUYcow} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:91:
+                    set {cost.%player%.1} to {@BUYsheep}
+                    set {cost.%player%.4} to ({@BUYsheep} * 4)
+                    set {cost.%player%.12} to ({@BUYsheep} * 12)
+                    set {cost.%player%.32} to ({@BUYsheep} * 32)
+                    set {cost.%player%.64} to ({@BUYsheep} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:90:
+                    set {cost.%player%.1} to {@BUYpig}
+                    set {cost.%player%.4} to ({@BUYpig} * 4)
+                    set {cost.%player%.12} to ({@BUYpig} * 12)
+                    set {cost.%player%.32} to ({@BUYpig} * 32)
+                    set {cost.%player%.64} to ({@BUYpig} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is cactus:
+                    set {cost.%player%.1} to {@BUYcactus}
+                    set {cost.%player%.4} to ({@BUYcactus} * 4)
+                    set {cost.%player%.12} to ({@BUYcactus} * 12)
+                    set {cost.%player%.32} to ({@BUYcactus} * 32)
+                    set {cost.%player%.64} to ({@BUYcactus} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sugar cane item:
+                    set {cost.%player%.1} to {@BUYcane}
+                    set {cost.%player%.4} to ({@BUYcane} * 4)
+                    set {cost.%player%.12} to ({@BUYcane} * 12)
+                    set {cost.%player%.32} to ({@BUYcane} * 32)
+                    set {cost.%player%.64} to ({@BUYcane} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is lily pad:
+                    set {cost.%player%.1} to {@BUYwaterlily}
+                    set {cost.%player%.4} to ({@BUYwaterlily} * 4)
+                    set {cost.%player%.12} to ({@BUYwaterlily} * 12)
+                    set {cost.%player%.32} to ({@BUYwaterlily} * 32)
+                    set {cost.%player%.64} to ({@BUYwaterlily} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is vines:
+                    set {cost.%player%.1} to {@BUYvine}
+                    set {cost.%player%.4} to ({@BUYvine} * 4)
+                    set {cost.%player%.12} to ({@BUYvine} * 12)
+                    set {cost.%player%.32} to ({@BUYvine} * 32)
+                    set {cost.%player%.64} to ({@BUYvine} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is melon block:
+                    set {cost.%player%.1} to {@BUYmelon}
+                    set {cost.%player%.4} to ({@BUYmelon} * 4)
+                    set {cost.%player%.12} to ({@BUYmelon} * 12)
+                    set {cost.%player%.32} to ({@BUYmelon} * 32)
+                    set {cost.%player%.64} to ({@BUYmelon} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is pumpkin:
+                    set {cost.%player%.1} to {@BUYpumpkin}
+                    set {cost.%player%.4} to ({@BUYpumpkin} * 4)
+                    set {cost.%player%.12} to ({@BUYpumpkin} * 12)
+                    set {cost.%player%.32} to ({@BUYpumpkin} * 32)
+                    set {cost.%player%.64} to ({@BUYpumpkin} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is wheat:
+                    set {cost.%player%.1} to {@BUYwheat}
+                    set {cost.%player%.4} to ({@BUYwheat} * 4)
+                    set {cost.%player%.12} to ({@BUYwheat} * 12)
+                    set {cost.%player%.32} to ({@BUYwheat} * 32)
+                    set {cost.%player%.64} to ({@BUYwheat} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is melon seeds:
+                    set {cost.%player%.1} to {@BUYmelons}
+                    set {cost.%player%.4} to ({@BUYmelons} * 4)
+                    set {cost.%player%.12} to ({@BUYmelons} * 12)
+                    set {cost.%player%.32} to ({@BUYmelons} * 32)
+                    set {cost.%player%.64} to ({@BUYmelons} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is pumpkin seeds:
+                    set {cost.%player%.1} to {@BUYpumpkins}
+                    set {cost.%player%.4} to ({@BUYpumpkins} * 4)
+                    set {cost.%player%.12} to ({@BUYpumpkins} * 12)
+                    set {cost.%player%.32} to ({@BUYpumpkins} * 32)
+                    set {cost.%player%.64} to ({@BUYpumpkins} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is wheat seeds:
+                    set {cost.%player%.1} to {@BUYwheats}
+                    set {cost.%player%.4} to ({@BUYwheats} * 4)
+                    set {cost.%player%.12} to ({@BUYwheats} * 12)
+                    set {cost.%player%.32} to ({@BUYwheats} * 32)
+                    set {cost.%player%.64} to ({@BUYwheats} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:0:
+                    set {cost.%player%.1} to {@BUYsapling0}
+                    set {cost.%player%.4} to ({@BUYsapling0} * 4)
+                    set {cost.%player%.12} to ({@BUYsapling0} * 12)
+                    set {cost.%player%.32} to ({@BUYsapling0} * 32)
+                    set {cost.%player%.64} to ({@BUYsapling0} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:1:
+                    set {cost.%player%.1} to {@BUYsapling1}
+                    set {cost.%player%.4} to ({@BUYsapling1} * 4)
+                    set {cost.%player%.12} to ({@BUYsapling1} * 12)
+                    set {cost.%player%.32} to ({@BUYsapling1} * 32)
+                    set {cost.%player%.64} to ({@BUYsapling1} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:2:
+                    set {cost.%player%.1} to {@BUYsapling2}
+                    set {cost.%player%.4} to ({@BUYsapling2} * 4)
+                    set {cost.%player%.12} to ({@BUYsapling2} * 12)
+                    set {cost.%player%.32} to ({@BUYsapling2} * 32)
+                    set {cost.%player%.64} to ({@BUYsapling2} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:3:
+                    set {cost.%player%.1} to {@BUYsapling3}
+                    set {cost.%player%.4} to ({@BUYsapling3} * 4)
+                    set {cost.%player%.12} to ({@BUYsapling3} * 12)
+                    set {cost.%player%.32} to ({@BUYsapling3} * 32)
+                    set {cost.%player%.64} to ({@BUYsapling3} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is emerald:
+                    set {cost.%player%.1} to {@BUYemerald}
+                    set {cost.%player%.4} to ({@BUYemerald} * 4)
+                    set {cost.%player%.12} to ({@BUYemerald} * 12)
+                    set {cost.%player%.32} to ({@BUYemerald} * 32)
+                    set {cost.%player%.64} to ({@BUYemerald} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is diamond:
+                    set {cost.%player%.1} to {@BUYdiamond}
+                    set {cost.%player%.4} to ({@BUYdiamond} * 4)
+                    set {cost.%player%.12} to ({@BUYdiamond} * 12)
+                    set {cost.%player%.32} to ({@BUYdiamond} * 32)
+                    set {cost.%player%.64} to ({@BUYdiamond} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is gold ingot:
+                    set {cost.%player%.1} to {@BUYgold}
+                    set {cost.%player%.4} to ({@BUYgold} * 4)
+                    set {cost.%player%.12} to ({@BUYgold} * 12)
+                    set {cost.%player%.32} to ({@BUYgold} * 32)
+                    set {cost.%player%.64} to ({@BUYgold} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is iron ingot:
+                    set {cost.%player%.1} to {@BUYiron}
+                    set {cost.%player%.4} to ({@BUYiron} * 4)
+                    set {cost.%player%.12} to ({@BUYiron} * 12)
+                    set {cost.%player%.32} to ({@BUYiron} * 32)
+                    set {cost.%player%.64} to ({@BUYiron} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is coal item:
+                    set {cost.%player%.1} to {@BUYcoal}
+                    set {cost.%player%.4} to ({@BUYcoal} * 4)
+                    set {cost.%player%.12} to ({@BUYcoal} * 12)
+                    set {cost.%player%.32} to ({@BUYcoal} * 32)
+                    set {cost.%player%.64} to ({@BUYcoal} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is lapis lazuli:
+                    set {cost.%player%.1} to {@BUYlapis}
+                    set {cost.%player%.4} to ({@BUYlapis} * 4)
+                    set {cost.%player%.12} to ({@BUYlapis} * 12)
+                    set {cost.%player%.32} to ({@BUYlapis} * 32)
+                    set {cost.%player%.64} to ({@BUYlapis} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is redstone:
+                    set {cost.%player%.1} to {@BUYredstone}
+                    set {cost.%player%.4} to ({@BUYredstone} * 4)
+                    set {cost.%player%.12} to ({@BUYredstone} * 12)
+                    set {cost.%player%.32} to ({@BUYredstone} * 32)
+                    set {cost.%player%.64} to ({@BUYredstone} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is redstone repeater item:
+                    set {cost.%player%.1} to {@BUYrepeater}
+                    set {cost.%player%.4} to ({@BUYrepeater} * 4)
+                    set {cost.%player%.12} to ({@BUYrepeater} * 12)
+                    set {cost.%player%.32} to ({@BUYrepeater} * 32)
+                    set {cost.%player%.64} to ({@BUYrepeater} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is redstone comparator item:
+                    set {cost.%player%.1} to {@BUYcomparator}
+                    set {cost.%player%.4} to ({@BUYcomparator} * 4)
+                    set {cost.%player%.12} to ({@BUYcomparator} * 12)
+                    set {cost.%player%.32} to ({@BUYcomparator} * 32)
+                    set {cost.%player%.64} to ({@BUYcomparator} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is sticky piston item:
+                    set {cost.%player%.1} to {@BUYspiston}
+                    set {cost.%player%.4} to ({@BUYspiston} * 4)
+                    set {cost.%player%.12} to ({@BUYspiston} * 12)
+                    set {cost.%player%.32} to ({@BUYspiston} * 32)
+                    set {cost.%player%.64} to ({@BUYspiston} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is piston item:
+                    set {cost.%player%.1} to {@BUYpiston}
+                    set {cost.%player%.4} to ({@BUYpiston} * 4)
+                    set {cost.%player%.12} to ({@BUYpiston} * 12)
+                    set {cost.%player%.32} to ({@BUYpiston} * 32)
+                    set {cost.%player%.64} to ({@BUYpiston} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is dispenser:
+                    set {cost.%player%.1} to {@BUYdispenser}
+                    set {cost.%player%.4} to ({@BUYdispenser} * 4)
+                    set {cost.%player%.12} to ({@BUYdispenser} * 12)
+                    set {cost.%player%.32} to ({@BUYdispenser} * 32)
+                    set {cost.%player%.64} to ({@BUYdispenser} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is hopper:
+                    set {cost.%player%.1} to {@BUYhopper}
+                    set {cost.%player%.4} to ({@BUYhopper} * 4)
+                    set {cost.%player%.12} to ({@BUYhopper} * 12)
+                    set {cost.%player%.32} to ({@BUYhopper} * 32)
+                    set {cost.%player%.64} to ({@BUYhopper} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is apple:
+                    set {cost.%player%.1} to {@BUYapple}
+                    set {cost.%player%.4} to ({@BUYapple} * 4)
+                    set {cost.%player%.12} to ({@BUYapple} * 12)
+                    set {cost.%player%.32} to ({@BUYapple} * 32)
+                    set {cost.%player%.64} to ({@BUYapple} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is golden apple:0:
+                    set {cost.%player%.1} to {@BUYgapple}
+                    set {cost.%player%.4} to ({@BUYgapple} * 4)
+                    set {cost.%player%.12} to ({@BUYgapple} * 12)
+                    set {cost.%player%.32} to ({@BUYgapple} * 32)
+                    set {cost.%player%.64} to ({@BUYgapple} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is golden apple:1:
+                    set {cost.%player%.1} to {@BUYgodapple}
+                    set {cost.%player%.4} to ({@BUYgodapple} * 4)
+                    set {cost.%player%.12} to ({@BUYgodapple} * 12)
+                    set {cost.%player%.32} to ({@BUYgodapple} * 32)
+                    set {cost.%player%.64} to ({@BUYgodapple} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is bread:
+                    set {cost.%player%.1} to {@BUYbread}
+                    set {cost.%player%.4} to ({@BUYbread} * 4)
+                    set {cost.%player%.12} to ({@BUYbread} * 12)
+                    set {cost.%player%.32} to ({@BUYbread} * 32)
+                    set {cost.%player%.64} to ({@BUYbread} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked porkchop:
+                    set {cost.%player%.1} to {@BUYpork}
+                    set {cost.%player%.4} to ({@BUYpork} * 4)
+                    set {cost.%player%.12} to ({@BUYpork} * 12)
+                    set {cost.%player%.32} to ({@BUYpork} * 32)
+                    set {cost.%player%.64} to ({@BUYpork} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is steak:
+                    set {cost.%player%.1} to {@BUYsteak}
+                    set {cost.%player%.4} to ({@BUYsteak} * 4)
+                    set {cost.%player%.12} to ({@BUYsteak} * 12)
+                    set {cost.%player%.32} to ({@BUYsteak} * 32)
+                    set {cost.%player%.64} to ({@BUYsteak} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cookie:
+                    set {cost.%player%.1} to {@BUYcookie}
+                    set {cost.%player%.4} to ({@BUYcookie} * 4)
+                    set {cost.%player%.12} to ({@BUYcookie} * 12)
+                    set {cost.%player%.32} to ({@BUYcookie} * 32)
+                    set {cost.%player%.64} to ({@BUYcookie} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked chicken:
+                    set {cost.%player%.1} to {@BUYchick}
+                    set {cost.%player%.4} to ({@BUYchick} * 4)
+                    set {cost.%player%.12} to ({@BUYchick} * 12)
+                    set {cost.%player%.32} to ({@BUYchick} * 32)
+                    set {cost.%player%.64} to ({@BUYchick} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked fish:
+                    set {cost.%player%.1} to {@BUYfish}
+                    set {cost.%player%.4} to ({@BUYfish} * 4)
+                    set {cost.%player%.12} to ({@BUYfish} * 12)
+                    set {cost.%player%.32} to ({@BUYfish} * 32)
+                    set {cost.%player%.64} to ({@BUYfish} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked salmon:
+                    set {cost.%player%.1} to {@BUYsalmon}
+                    set {cost.%player%.4} to ({@BUYsalmon} * 4)
+                    set {cost.%player%.12} to ({@BUYsalmon} * 12)
+                    set {cost.%player%.32} to ({@BUYsalmon} * 32)
+                    set {cost.%player%.64} to ({@BUYsalmon} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cake item:
+                    set {cost.%player%.1} to {@BUYcake}
+                    set {cost.%player%.4} to ({@BUYcake} * 4)
+                    set {cost.%player%.12} to ({@BUYcake} * 12)
+                    set {cost.%player%.32} to ({@BUYcake} * 32)
+                    set {cost.%player%.64} to ({@BUYcake} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is mushroom stew:
+                    set {cost.%player%.1} to {@BUYmushroom}
+                    set {cost.%player%.4} to ({@BUYmushroom} * 4)
+                    set {cost.%player%.12} to ({@BUYmushroom} * 12)
+                    set {cost.%player%.32} to ({@BUYmushroom} * 32)
+                    set {cost.%player%.64} to ({@BUYmushroom} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is carrot:
+                    set {cost.%player%.1} to {@BUYcarrot}
+                    set {cost.%player%.4} to ({@BUYcarrot} * 4)
+                    set {cost.%player%.12} to ({@BUYcarrot} * 12)
+                    set {cost.%player%.32} to ({@BUYcarrot} * 32)
+                    set {cost.%player%.64} to ({@BUYcarrot} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is potato:
+                    set {cost.%player%.1} to {@BUYpotato}
+                    set {cost.%player%.4} to ({@BUYpotato} * 4)
+                    set {cost.%player%.12} to ({@BUYpotato} * 12)
+                    set {cost.%player%.32} to ({@BUYpotato} * 32)
+                    set {cost.%player%.64} to ({@BUYpotato} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is stone:
+                    set {cost.%player%.1} to {@BUYstone}
+                    set {cost.%player%.4} to ({@BUYstone} * 4)
+                    set {cost.%player%.12} to ({@BUYstone} * 12)
+                    set {cost.%player%.32} to ({@BUYstone} * 32)
+                    set {cost.%player%.64} to ({@BUYstone} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is cobblestone:
+                    set {cost.%player%.1} to {@BUYcobblestone}
+                    set {cost.%player%.4} to ({@BUYcobblestone} * 4)
+                    set {cost.%player%.12} to ({@BUYcobblestone} * 12)
+                    set {cost.%player%.32} to ({@BUYcobblestone} * 32)
+                    set {cost.%player%.64} to ({@BUYcobblestone} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is mossy cobblestone:
+                    set {cost.%player%.1} to {@BUYmoss}
+                    set {cost.%player%.4} to ({@BUYmoss} * 4)
+                    set {cost.%player%.12} to ({@BUYmoss} * 12)
+                    set {cost.%player%.32} to ({@BUYmoss} * 32)
+                    set {cost.%player%.64} to ({@BUYmoss} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is dirt:
+                    set {cost.%player%.1} to {@BUYdirt}
+                    set {cost.%player%.4} to ({@BUYdirt} * 4)
+                    set {cost.%player%.12} to ({@BUYdirt} * 12)
+                    set {cost.%player%.32} to ({@BUYdirt} * 32)
+                    set {cost.%player%.64} to ({@BUYdirt} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is grass:
+                    set {cost.%player%.1} to {@BUYgrass}
+                    set {cost.%player%.4} to ({@BUYgrass} * 4)
+                    set {cost.%player%.12} to ({@BUYgrass} * 12)
+                    set {cost.%player%.32} to ({@BUYgrass} * 32)
+                    set {cost.%player%.64} to ({@BUYgrass} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is mycelium:
+                    set {cost.%player%.1} to {@BUYmycelium}
+                    set {cost.%player%.4} to ({@BUYmycelium} * 4)
+                    set {cost.%player%.12} to ({@BUYmycelium} * 12)
+                    set {cost.%player%.32} to ({@BUYmycelium} * 32)
+                    set {cost.%player%.64} to ({@BUYmycelium} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is sand:
+                    set {cost.%player%.1} to {@BUYsand}
+                    set {cost.%player%.4} to ({@BUYsand} * 4)
+                    set {cost.%player%.12} to ({@BUYsand} * 12)
+                    set {cost.%player%.32} to ({@BUYsand} * 32)
+                    set {cost.%player%.64} to ({@BUYsand} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is gravel:
+                    set {cost.%player%.1} to {@BUYgravel}
+                    set {cost.%player%.4} to ({@BUYgravel} * 4)
+                    set {cost.%player%.12} to ({@BUYgravel} * 12)
+                    set {cost.%player%.32} to ({@BUYgravel} * 32)
+                    set {cost.%player%.64} to ({@BUYgravel} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is clay block:
+                    set {cost.%player%.1} to {@BUYclay}
+                    set {cost.%player%.4} to ({@BUYclay} * 4)
+                    set {cost.%player%.12} to ({@BUYclay} * 12)
+                    set {cost.%player%.32} to ({@BUYclay} * 32)
+                    set {cost.%player%.64} to ({@BUYclay} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is hardened clay:
+                    set {cost.%player%.1} to {@BUYhardenedclay}
+                    set {cost.%player%.4} to ({@BUYhardenedclay} * 4)
+                    set {cost.%player%.12} to ({@BUYhardenedclay} * 12)
+                    set {cost.%player%.32} to ({@BUYhardenedclay} * 32)
+                    set {cost.%player%.64} to ({@BUYhardenedclay} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is oak wood block:
+                    set {cost.%player%.1} to {@BUYlog}
+                    set {cost.%player%.4} to ({@BUYlog} * 4)
+                    set {cost.%player%.12} to ({@BUYlog} * 12)
+                    set {cost.%player%.32} to ({@BUYlog} * 32)
+                    set {cost.%player%.64} to ({@BUYlog} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is spruce wood block:
+                    set {cost.%player%.1} to {@BUYlog}
+                    set {cost.%player%.4} to ({@BUYlog} * 4)
+                    set {cost.%player%.12} to ({@BUYlog} * 12)  
+                    set {cost.%player%.32} to ({@BUYlog} * 32)
+                    set {cost.%player%.64} to ({@BUYlog} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is birch wood block:
+                    set {cost.%player%.1} to {@BUYlog}
+                    set {cost.%player%.4} to ({@BUYlog} * 4)
+                    set {cost.%player%.12} to ({@BUYlog} * 12)
+                    set {cost.%player%.32} to ({@BUYlog} * 32)
+                    set {cost.%player%.64} to ({@BUYlog} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is wool:0:
+                    set {cost.%player%.1} to {@BUYwool}
+                    set {cost.%player%.4} to ({@BUYwool} * 4)
+                    set {cost.%player%.12} to ({@BUYwool} * 12)
+                    set {cost.%player%.32} to ({@BUYwool} * 32)
+                    set {cost.%player%.64} to ({@BUYwool} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is quartz block:
+                    set {cost.%player%.1} to {@BUYquartz}
+                    set {cost.%player%.4} to ({@BUYquartz} * 4)
+                    set {cost.%player%.12} to ({@BUYquartz} * 12)
+                    set {cost.%player%.32} to ({@BUYquartz} * 32)
+                    set {cost.%player%.64} to ({@BUYquartz} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is snow:
+                    set {cost.%player%.1} to {@BUYsnow}
+                    set {cost.%player%.4} to ({@BUYsnow} * 4)
+                    set {cost.%player%.12} to ({@BUYsnow} * 12)
+                    set {cost.%player%.32} to ({@BUYsnow} * 32)
+                    set {cost.%player%.64} to ({@BUYsnow} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is glass:
+                    set {cost.%player%.1} to {@BUYglass}
+                    set {cost.%player%.4} to ({@BUYglass} * 4)
+                    set {cost.%player%.12} to ({@BUYglass} * 12)
+                    set {cost.%player%.32} to ({@BUYglass} * 32)
+                    set {cost.%player%.64} to ({@BUYglass} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is ice:
+                    set {cost.%player%.1} to {@BUYice}
+                    set {cost.%player%.4} to ({@BUYice} * 4)
+                    set {cost.%player%.12} to ({@BUYice} * 12)
+                    set {cost.%player%.32} to ({@BUYice} * 32)
+                    set {cost.%player%.64} to ({@BUYice} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is packed ice:
+                    set {cost.%player%.1} to {@BUYpackedice}
+                    set {cost.%player%.4} to ({@BUYpackedice} * 4)
+                    set {cost.%player%.12} to ({@BUYpackedice} * 12)
+                    set {cost.%player%.32} to ({@BUYpackedice} * 32)
+                    set {cost.%player%.64} to ({@BUYpackedice} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is end stone:
+                    set {cost.%player%.1} to {@BUYendstone}
+                    set {cost.%player%.4} to ({@BUYendstone} * 4)
+                    set {cost.%player%.12} to ({@BUYendstone} * 12)
+                    set {cost.%player%.32} to ({@BUYendstone} * 32)
+                    set {cost.%player%.64} to ({@BUYendstone} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is obsidian:
+                    set {cost.%player%.1} to {@BUYobsidian}
+                    set {cost.%player%.4} to ({@BUYobsidian} * 4)
+                    set {cost.%player%.12} to ({@BUYobsidian} * 12)
+                    set {cost.%player%.32} to ({@BUYobsidian} * 32)
+                    set {cost.%player%.64} to ({@BUYobsidian} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is enchantment table:
+                    set {earn.%player%.1} to {@SELLenchtable}
+                    set {earn.%player%.4} to ({@SELLenchtable} * 4)
+                    set {earn.%player%.12} to ({@SELLenchtable} * 12)
+                    set {earn.%player%.32} to ({@SELLenchtable} * 32)
+                    set {earn.%player%.64} to ({@SELLenchtable} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is experience bottle:
+                    set {earn.%player%.1} to {@SELLenchbottle}
+                    set {earn.%player%.4} to ({@SELLenchbottle} * 4)
+                    set {earn.%player%.12} to ({@SELLenchbottle} * 12)
+                    set {earn.%player%.32} to ({@SELLenchbottle} * 32)
+                    set {earn.%player%.64} to ({@SELLenchbottle} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is diamond horse armor:
+                    set {earn.%player%.1} to {@SELLdhorse}
+                    set {earn.%player%.4} to ({@SELLdhorse} * 4)
+                    set {earn.%player%.12} to ({@SELLdhorse} * 12)
+                    set {earn.%player%.32} to ({@SELLdhorse} * 32)
+                    set {earn.%player%.64} to ({@SELLdhorse} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is bone:
+                    set {earn.%player%.1} to {@SELLbone}
+                    set {earn.%player%.4} to ({@SELLbone} * 4)
+                    set {earn.%player%.12} to ({@SELLbone} * 12)
+                    set {earn.%player%.32} to ({@SELLbone} * 32)
+                    set {earn.%player%.64} to ({@SELLbone} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is string:
+                    set {earn.%player%.1} to {@SELLstring}
+                    set {earn.%player%.4} to ({@SELLstring} * 4)
+                    set {earn.%player%.12} to ({@SELLstring} * 12)
+                    set {earn.%player%.32} to ({@SELLstring} * 32)
+                    set {earn.%player%.64} to ({@SELLstring} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is lead:
+                    set {earn.%player%.1} to {@SELLlead}
+                    set {earn.%player%.4} to ({@SELLlead} * 4)
+                    set {earn.%player%.12} to ({@SELLlead} * 12)
+                    set {earn.%player%.32} to ({@SELLlead} * 32)
+                    set {earn.%player%.64} to ({@SELLlead} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is name tag:
+                    set {earn.%player%.1} to {@SELLnametag}
+                    set {earn.%player%.4} to ({@SELLnametag} * 4)
+                    set {earn.%player%.12} to ({@SELLnametag} * 12)
+                    set {earn.%player%.32} to ({@SELLnametag} * 32)
+                    set {earn.%player%.64} to ({@SELLnametag} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is ender chest:
+                    set {earn.%player%.1} to {@SELLechest}
+                    set {earn.%player%.4} to ({@SELLechest} * 4)
+                    set {earn.%player%.12} to ({@SELLechest} * 12)
+                    set {earn.%player%.32} to ({@SELLechest} * 32)
+                    set {earn.%player%.64} to ({@SELLechest} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is nether star:
+                    set {earn.%player%.1} to {@SELLnetherstar}
+                    set {earn.%player%.4} to ({@SELLnetherstar} * 4)
+                    set {earn.%player%.12} to ({@SELLnetherstar} * 12)
+                    set {earn.%player%.32} to ({@SELLnetherstar} * 32)
+                    set {earn.%player%.64} to ({@SELLnetherstar} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is snowball:
+                    set {earn.%player%.1} to {@SELLsnowball}
+                    set {earn.%player%.4} to ({@SELLsnowball} * 4)
+                    set {earn.%player%.12} to ({@SELLsnowball} * 12)
+                    set {earn.%player%.32} to ({@SELLsnowball} * 32)
+                    set {earn.%player%.64} to ({@SELLsnowball} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is ender pearl:
+                    set {earn.%player%.1} to {@SELLepearl}
+                    set {earn.%player%.4} to ({@SELLepearl} * 4)
+                    set {earn.%player%.12} to ({@SELLepearl} * 12)
+                    set {earn.%player%.32} to ({@SELLepearl} * 32)
+                    set {earn.%player%.64} to ({@SELLepearl} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is bucket:
+                    set {earn.%player%.1} to {@SELLbucket}
+                    set {earn.%player%.4} to ({@SELLbucket} * 4)
+                    set {earn.%player%.12} to ({@SELLbucket} * 12)
+                    set {earn.%player%.32} to ({@SELLbucket} * 32)
+                    set {earn.%player%.64} to ({@SELLbucket} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is lava bucket:
+                    set {earn.%player%.1} to {@SELLlbucket}
+                    set {earn.%player%.4} to ({@SELLlbucket} * 4)
+                    set {earn.%player%.12} to ({@SELLlbucket} * 12)
+                    set {earn.%player%.32} to ({@SELLlbucket} * 32)
+                    set {earn.%player%.64} to ({@SELLlbucket} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is water bucket:
+                    set {earn.%player%.1} to {@SELLwbucket}
+                    set {earn.%player%.4} to ({@SELLwbucket} * 4)
+                    set {earn.%player%.12} to ({@SELLwbucket} * 12)
+                    set {earn.%player%.32} to ({@SELLwbucket} * 32)
+                    set {earn.%player%.64} to ({@SELLwbucket} * 64)
+                    set {inshop.%player%} to "Mix"
+                if {object.%player%} is spawn egg:120:
+                    set {earn.%player%.1} to {@SELLvillager}
+                    set {earn.%player%.4} to ({@SELLvillager} * 4)
+                    set {earn.%player%.12} to ({@SELLvillager} * 12)
+                    set {earn.%player%.32} to ({@SELLvillager} * 32)
+                    set {earn.%player%.64} to ({@SELLvillager} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:100:
+                    set {earn.%player%.1} to {@SELLhorse}
+                    set {earn.%player%.4} to ({@SELLhorse} * 4)
+                    set {earn.%player%.12} to ({@SELLhorse} * 12)
+                    set {earn.%player%.32} to ({@SELLhorse} * 32)
+                    set {earn.%player%.64} to ({@SELLhorse} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:101:
+                    set {earn.%player%.1} to {@SELLrabbit}
+                    set {earn.%player%.4} to ({@SELLrabbit} * 4)
+                    set {earn.%player%.12} to ({@SELLrabbit} * 12)
+                    set {earn.%player%.32} to ({@SELLrabbit} * 32)
+                    set {earn.%player%.64} to ({@SELLrabbit} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:98:
+                    set {earn.%player%.1} to {@SELLocelot}
+                    set {earn.%player%.4} to ({@SELLocelot} * 4)
+                    set {earn.%player%.12} to ({@SELLocelot} * 12)
+                    set {earn.%player%.32} to ({@SELLocelot} * 32)
+                    set {earn.%player%.64} to ({@SELLocelot} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:96:
+                    set {earn.%player%.1} to {@SELLmushcow}
+                    set {earn.%player%.4} to ({@SELLmushcow} * 4)
+                    set {earn.%player%.12} to ({@SELLmushcow} * 12)
+                    set {earn.%player%.32} to ({@SELLmushcow} * 32)
+                    set {earn.%player%.64} to ({@SELLmushcow} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:95:
+                    set {earn.%player%.1} to {@SELLwolf}
+                    set {earn.%player%.4} to ({@SELLwolf} * 4)
+                    set {earn.%player%.12} to ({@SELLwolf} * 12)
+                    set {earn.%player%.32} to ({@SELLwolf} * 32)
+                    set {earn.%player%.64} to ({@SELLwolf} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:94:
+                    set {earn.%player%.1} to {@SELLsquid}
+                    set {earn.%player%.4} to ({@SELLsquid} * 4)
+                    set {earn.%player%.12} to ({@SELLsquid} * 12)
+                    set {earn.%player%.32} to ({@SELLsquid} * 32)
+                    set {earn.%player%.64} to ({@SELLsquid} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:93:
+                    set {earn.%player%.1} to {@SELLchicken}
+                    set {earn.%player%.4} to ({@SELLchicken} * 4)
+                    set {earn.%player%.12} to ({@SELLchicken} * 12)
+                    set {earn.%player%.32} to ({@SELLchicken} * 32)
+                    set {earn.%player%.64} to ({@SELLchicken} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:92:
+                    set {earn.%player%.1} to {@SELLcow}
+                    set {earn.%player%.4} to ({@SELLcow} * 4)
+                    set {earn.%player%.12} to ({@SELLcow} * 12)
+                    set {earn.%player%.32} to ({@SELLcow} * 32)
+                    set {earn.%player%.64} to ({@SELLcow} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:91:
+                    set {earn.%player%.1} to {@SELLsheep}
+                    set {earn.%player%.4} to ({@SELLsheep} * 4)
+                    set {earn.%player%.12} to ({@SELLsheep} * 12)
+                    set {earn.%player%.32} to ({@SELLsheep} * 32)
+                    set {earn.%player%.64} to ({@SELLsheep} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is spawn egg:90:
+                    set {earn.%player%.1} to {@SELLpig}
+                    set {earn.%player%.4} to ({@SELLpig} * 4)
+                    set {earn.%player%.12} to ({@SELLpig} * 12)
+                    set {earn.%player%.32} to ({@SELLpig} * 32)
+                    set {earn.%player%.64} to ({@SELLpig} * 64)
+                    set {inshop.%player%} to "Egg"
+                if {object.%player%} is cactus:
+                    set {earn.%player%.1} to {@SELLcactus}
+                    set {earn.%player%.4} to ({@SELLcactus} * 4)
+                    set {earn.%player%.12} to ({@SELLcactus} * 12)
+                    set {earn.%player%.32} to ({@SELLcactus} * 32)
+                    set {earn.%player%.64} to ({@SELLcactus} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sugar cane item:
+                    set {earn.%player%.1} to {@SELLcane}
+                    set {earn.%player%.4} to ({@SELLcane} * 4)
+                    set {earn.%player%.12} to ({@SELLcane} * 12)
+                    set {earn.%player%.32} to ({@SELLcane} * 32)
+                    set {earn.%player%.64} to ({@SELLcane} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is lily pad:
+                    set {earn.%player%.1} to {@SELLwaterlily}
+                    set {earn.%player%.4} to ({@SELLwaterlily} * 4)
+                    set {earn.%player%.12} to ({@SELLwaterlily} * 12)
+                    set {earn.%player%.32} to ({@SELLwaterlily} * 32)
+                    set {earn.%player%.64} to ({@SELLwaterlily} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is vines:
+                    set {earn.%player%.1} to {@SELLvine}
+                    set {earn.%player%.4} to ({@SELLvine} * 4)
+                    set {earn.%player%.12} to ({@SELLvine} * 12)
+                    set {earn.%player%.32} to ({@SELLvine} * 32)
+                    set {earn.%player%.64} to ({@SELLvine} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is melon block:
+                    set {earn.%player%.1} to {@SELLmelon}
+                    set {earn.%player%.4} to ({@SELLmelon} * 4)
+                    set {earn.%player%.12} to ({@SELLmelon} * 12)
+                    set {earn.%player%.32} to ({@SELLmelon} * 32)
+                    set {earn.%player%.64} to ({@SELLmelon} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is pumpkin:
+                    set {earn.%player%.1} to {@SELLpumpkin}
+                    set {earn.%player%.4} to ({@SELLpumpkin} * 4)
+                    set {earn.%player%.12} to ({@SELLpumpkin} * 12)
+                    set {earn.%player%.32} to ({@SELLpumpkin} * 32)
+                    set {earn.%player%.64} to ({@SELLpumpkin} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is wheat:
+                    set {earn.%player%.1} to {@SELLwheat}
+                    set {earn.%player%.4} to ({@SELLwheat} * 4)
+                    set {earn.%player%.12} to ({@SELLwheat} * 12)
+                    set {earn.%player%.32} to ({@SELLwheat} * 32)
+                    set {earn.%player%.64} to ({@SELLwheat} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is melon seeds:
+                    set {earn.%player%.1} to {@SELLmelons}
+                    set {earn.%player%.4} to ({@SELLmelons} * 4)
+                    set {earn.%player%.12} to ({@SELLmelons} * 12)
+                    set {earn.%player%.32} to ({@SELLmelons} * 32)
+                    set {earn.%player%.64} to ({@SELLmelons} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is pumpkin seeds:
+                    set {earn.%player%.1} to {@SELLpumpkins}
+                    set {earn.%player%.4} to ({@SELLpumpkins} * 4)
+                    set {earn.%player%.12} to ({@SELLpumpkins} * 12)
+                    set {earn.%player%.32} to ({@SELLpumpkins} * 32)
+                    set {earn.%player%.64} to ({@SELLpumpkins} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is wheat seeds:
+                    set {earn.%player%.1} to {@SELLwheats}
+                    set {earn.%player%.4} to ({@SELLwheats} * 4)
+                    set {earn.%player%.12} to ({@SELLwheats} * 12)
+                    set {earn.%player%.32} to ({@SELLwheats} * 32)
+                    set {earn.%player%.64} to ({@SELLwheats} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:0:
+                    set {earn.%player%.1} to {@SELLsapling0}
+                    set {earn.%player%.4} to ({@SELLsapling0} * 4)
+                    set {earn.%player%.12} to ({@SELLsapling0} * 12)
+                    set {earn.%player%.32} to ({@SELLsapling0} * 32)
+                    set {earn.%player%.64} to ({@SELLsapling0} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:1:
+                    set {earn.%player%.1} to {@SELLsapling1}
+                    set {earn.%player%.4} to ({@SELLsapling1} * 4)
+                    set {earn.%player%.12} to ({@SELLsapling1} * 12)
+                    set {earn.%player%.32} to ({@SELLsapling1} * 32)
+                    set {earn.%player%.64} to ({@SELLsapling1} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:2:
+                    set {earn.%player%.1} to {@SELLsapling2}
+                    set {earn.%player%.4} to ({@SELLsapling2} * 4)
+                    set {earn.%player%.12} to ({@SELLsapling2} * 12)
+                    set {earn.%player%.32} to ({@SELLsapling2} * 32)
+                    set {earn.%player%.64} to ({@SELLsapling2} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is sapling:3:
+                    set {earn.%player%.1} to {@SELLsapling3}
+                    set {earn.%player%.4} to ({@SELLsapling3} * 4)
+                    set {earn.%player%.12} to ({@SELLsapling3} * 12)
+                    set {earn.%player%.32} to ({@SELLsapling3} * 32)
+                    set {earn.%player%.64} to ({@SELLsapling3} * 64)
+                    set {inshop.%player%} to "Nature"
+                if {object.%player%} is emerald:
+                    set {earn.%player%.1} to {@SELLemerald}
+                    set {earn.%player%.4} to ({@SELLemerald} * 4)
+                    set {earn.%player%.12} to ({@SELLemerald} * 12)
+                    set {earn.%player%.32} to ({@SELLemerald} * 32)
+                    set {earn.%player%.64} to ({@SELLemerald} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is diamond:
+                    set {earn.%player%.1} to {@SELLdiamond}
+                    set {earn.%player%.4} to ({@SELLdiamond} * 4)
+                    set {earn.%player%.12} to ({@SELLdiamond} * 12)
+                    set {earn.%player%.32} to ({@SELLdiamond} * 32)
+                    set {earn.%player%.64} to ({@SELLdiamond} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is gold ingot:
+                    set {earn.%player%.1} to {@SELLgold}
+                    set {earn.%player%.4} to ({@SELLgold} * 4)
+                    set {earn.%player%.12} to ({@SELLgold} * 12)
+                    set {earn.%player%.32} to ({@SELLgold} * 32)
+                    set {earn.%player%.64} to ({@SELLgold} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is iron ingot:
+                    set {earn.%player%.1} to {@SELLiron}
+                    set {earn.%player%.4} to ({@SELLiron} * 4)
+                    set {earn.%player%.12} to ({@SELLiron} * 12)
+                    set {earn.%player%.32} to ({@SELLiron} * 32)
+                    set {earn.%player%.64} to ({@SELLiron} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is coal item:
+                    set {earn.%player%.1} to {@SELLcoal}
+                    set {earn.%player%.4} to ({@SELLcoal} * 4)
+                    set {earn.%player%.12} to ({@SELLcoal} * 12)
+                    set {earn.%player%.32} to ({@SELLcoal} * 32)
+                    set {earn.%player%.64} to ({@SELLcoal} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is lapis lazuli:
+                    set {earn.%player%.1} to {@SELLlapis}
+                    set {earn.%player%.4} to ({@SELLlapis} * 4)
+                    set {earn.%player%.12} to ({@SELLlapis} * 12)
+                    set {earn.%player%.32} to ({@SELLlapis} * 32)
+                    set {earn.%player%.64} to ({@SELLlapis} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is redstone:
+                    set {earn.%player%.1} to {@SELLredstone}
+                    set {earn.%player%.4} to ({@SELLredstone} * 4)
+                    set {earn.%player%.12} to ({@SELLredstone} * 12)
+                    set {earn.%player%.32} to ({@SELLredstone} * 32)
+                    set {earn.%player%.64} to ({@SELLredstone} * 64)
+                    set {inshop.%player%} to "Minerals"
+                if {object.%player%} is redstone repeater item:
+                    set {earn.%player%.1} to {@SELLrepeater}
+                    set {earn.%player%.4} to ({@SELLrepeater} * 4)
+                    set {earn.%player%.12} to ({@SELLrepeater} * 12)
+                    set {earn.%player%.32} to ({@SELLrepeater} * 32)
+                    set {earn.%player%.64} to ({@SELLrepeater} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is redstone comparator item:
+                    set {earn.%player%.1} to {@SELLcomparator}
+                    set {earn.%player%.4} to ({@SELLcomparator} * 4)
+                    set {earn.%player%.12} to ({@SELLcomparator} * 12)
+                    set {earn.%player%.32} to ({@SELLcomparator} * 32)
+                    set {earn.%player%.64} to ({@SELLcomparator} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is sticky piston item:
+                    set {earn.%player%.1} to {@SELLspiston}
+                    set {earn.%player%.4} to ({@SELLspiston} * 4)
+                    set {earn.%player%.12} to ({@SELLspiston} * 12)
+                    set {earn.%player%.32} to ({@SELLspiston} * 32)
+                    set {earn.%player%.64} to ({@SELLspiston} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is piston item:
+                    set {earn.%player%.1} to {@SELLpiston}
+                    set {earn.%player%.4} to ({@SELLpiston} * 4)
+                    set {earn.%player%.12} to ({@SELLpiston} * 12)
+                    set {earn.%player%.32} to ({@SELLpiston} * 32)
+                    set {earn.%player%.64} to ({@SELLpiston} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is dispenser:
+                    set {earn.%player%.1} to {@SELLdispenser}
+                    set {earn.%player%.4} to ({@SELLdispenser} * 4)
+                    set {earn.%player%.12} to ({@SELLdispenser} * 12)
+                    set {earn.%player%.32} to ({@SELLdispenser} * 32)
+                    set {earn.%player%.64} to ({@SELLdispenser} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is hopper:
+                    set {earn.%player%.1} to {@SELLhopper}
+                    set {earn.%player%.4} to ({@SELLhopper} * 4)
+                    set {earn.%player%.12} to ({@SELLhopper} * 12)
+                    set {earn.%player%.32} to ({@SELLhopper} * 32)
+                    set {earn.%player%.64} to ({@SELLhopper} * 64)
+                    set {inshop.%player%} to "Redstone"
+                if {object.%player%} is apple:
+                    set {earn.%player%.1} to {@SELLapple}
+                    set {earn.%player%.4} to ({@SELLapple} * 4)
+                    set {earn.%player%.12} to ({@SELLapple} * 12)
+                    set {earn.%player%.32} to ({@SELLapple} * 32)
+                    set {earn.%player%.64} to ({@SELLapple} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is golden apple:0:
+                    set {earn.%player%.1} to {@SELLgapple}
+                    set {earn.%player%.4} to ({@SELLgapple} * 4)
+                    set {earn.%player%.12} to ({@SELLgapple} * 12)
+                    set {earn.%player%.32} to ({@SELLgapple} * 32)
+                    set {earn.%player%.64} to ({@SELLgapple} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is golden apple:1:
+                    set {earn.%player%.1} to {@SELLgodapple}
+                    set {earn.%player%.4} to ({@SELLgodapple} * 4)
+                    set {earn.%player%.12} to ({@SELLgodapple} * 12)
+                    set {earn.%player%.32} to ({@SELLgodapple} * 32)
+                    set {earn.%player%.64} to ({@SELLgodapple} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is bread:
+                    set {earn.%player%.1} to {@SELLbread}
+                    set {earn.%player%.4} to ({@SELLbread} * 4)
+                    set {earn.%player%.12} to ({@SELLbread} * 12)
+                    set {earn.%player%.32} to ({@SELLbread} * 32)
+                    set {earn.%player%.64} to ({@SELLbread} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked porkchop:
+                    set {earn.%player%.1} to {@SELLpork}
+                    set {earn.%player%.4} to ({@SELLpork} * 4)
+                    set {earn.%player%.12} to ({@SELLpork} * 12)
+                    set {earn.%player%.32} to ({@SELLpork} * 32)
+                    set {earn.%player%.64} to ({@SELLpork} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is steak:
+                    set {earn.%player%.1} to {@SELLsteak}
+                    set {earn.%player%.4} to ({@SELLsteak} * 4)
+                    set {earn.%player%.12} to ({@SELLsteak} * 12)
+                    set {earn.%player%.32} to ({@SELLsteak} * 32)
+                    set {earn.%player%.64} to ({@SELLsteak} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cookie:
+                    set {earn.%player%.1} to {@SELLcookie}
+                    set {earn.%player%.4} to ({@SELLcookie} * 4)
+                    set {earn.%player%.12} to ({@SELLcookie} * 12)
+                    set {earn.%player%.32} to ({@SELLcookie} * 32)
+                    set {earn.%player%.64} to ({@SELLcookie} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked chicken:
+                    set {earn.%player%.1} to {@SELLchick}
+                    set {earn.%player%.4} to ({@SELLchick} * 4)
+                    set {earn.%player%.12} to ({@SELLchick} * 12)
+                    set {earn.%player%.32} to ({@SELLchick} * 32)
+                    set {earn.%player%.64} to ({@SELLchick} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked fish:
+                    set {earn.%player%.1} to {@SELLfish}
+                    set {earn.%player%.4} to ({@SELLfish} * 4)
+                    set {earn.%player%.12} to ({@SELLfish} * 12)
+                    set {earn.%player%.32} to ({@SELLfish} * 32)
+                    set {earn.%player%.64} to ({@SELLfish} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cooked salmon:
+                    set {earn.%player%.1} to {@SELLsalmon}
+                    set {earn.%player%.4} to ({@SELLsalmon} * 4)
+                    set {earn.%player%.12} to ({@SELLsalmon} * 12)
+                    set {earn.%player%.32} to ({@SELLsalmon} * 32)
+                    set {earn.%player%.64} to ({@SELLsalmon} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is cake item:
+                    set {earn.%player%.1} to {@SELLcake}
+                    set {earn.%player%.4} to ({@SELLcake} * 4)
+                    set {earn.%player%.12} to ({@SELLcake} * 12)
+                    set {earn.%player%.32} to ({@SELLcake} * 32)
+                    set {earn.%player%.64} to ({@SELLcake} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is mushroom stew:
+                    set {earn.%player%.1} to {@SELLmushroom}
+                    set {earn.%player%.4} to ({@SELLmushroom} * 4)
+                    set {earn.%player%.12} to ({@SELLmushroom} * 12)
+                    set {earn.%player%.32} to ({@SELLmushroom} * 32)
+                    set {earn.%player%.64} to ({@SELLmushroom} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is carrot:
+                    set {earn.%player%.1} to {@SELLcarrot}
+                    set {earn.%player%.4} to ({@SELLcarrot} * 4)
+                    set {earn.%player%.12} to ({@SELLcarrot} * 12)
+                    set {earn.%player%.32} to ({@SELLcarrot} * 32)
+                    set {earn.%player%.64} to ({@SELLcarrot} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is potato:
+                    set {earn.%player%.1} to {@SELLpotato}
+                    set {earn.%player%.4} to ({@SELLpotato} * 4)
+                    set {earn.%player%.12} to ({@SELLpotato} * 12)
+                    set {earn.%player%.32} to ({@SELLpotato} * 32)
+                    set {earn.%player%.64} to ({@SELLpotato} * 64)
+                    set {inshop.%player%} to "Food"
+                if {object.%player%} is stone:
+                    set {earn.%player%.1} to {@SELLstone}
+                    set {earn.%player%.4} to ({@SELLstone} * 4)
+                    set {earn.%player%.12} to ({@SELLstone} * 12)
+                    set {earn.%player%.32} to ({@SELLstone} * 32)
+                    set {earn.%player%.64} to ({@SELLstone} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is cobblestone:
+                    set {earn.%player%.1} to {@SELLcobblestone}
+                    set {earn.%player%.4} to ({@SELLcobblestone} * 4)
+                    set {earn.%player%.12} to ({@SELLcobblestone} * 12)
+                    set {earn.%player%.32} to ({@SELLcobblestone} * 32)
+                    set {earn.%player%.64} to ({@SELLcobblestone} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is mossy cobblestone:
+                    set {earn.%player%.1} to {@SELLmoss}
+                    set {earn.%player%.4} to ({@SELLmoss} * 4)
+                    set {earn.%player%.12} to ({@SELLmoss} * 12)
+                    set {earn.%player%.32} to ({@SELLmoss} * 32)
+                    set {earn.%player%.64} to ({@SELLmoss} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is dirt:
+                    set {earn.%player%.1} to {@SELLdirt}
+                    set {earn.%player%.4} to ({@SELLdirt} * 4)
+                    set {earn.%player%.12} to ({@SELLdirt} * 12)
+                    set {earn.%player%.32} to ({@SELLdirt} * 32)
+                    set {earn.%player%.64} to ({@SELLdirt} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is grass:
+                    set {earn.%player%.1} to {@SELLgrass}
+                    set {earn.%player%.4} to ({@SELLgrass} * 4)
+                    set {earn.%player%.12} to ({@SELLgrass} * 12)
+                    set {earn.%player%.32} to ({@SELLgrass} * 32)
+                    set {earn.%player%.64} to ({@SELLgrass} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is mycelium:
+                    set {earn.%player%.1} to {@SELLmycelium}
+                    set {earn.%player%.4} to ({@SELLmycelium} * 4)
+                    set {earn.%player%.12} to ({@SELLmycelium} * 12)
+                    set {earn.%player%.32} to ({@SELLmycelium} * 32)
+                    set {earn.%player%.64} to ({@SELLmycelium} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is sand:
+                    set {earn.%player%.1} to {@SELLsand}
+                    set {earn.%player%.4} to ({@SELLsand} * 4)
+                    set {earn.%player%.12} to ({@SELLsand} * 12)
+                    set {earn.%player%.32} to ({@SELLsand} * 32)
+                    set {earn.%player%.64} to ({@SELLsand} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is gravel:
+                    set {earn.%player%.1} to {@SELLgravel}
+                    set {earn.%player%.4} to ({@SELLgravel} * 4)
+                    set {earn.%player%.12} to ({@SELLgravel} * 12)
+                    set {earn.%player%.32} to ({@SELLgravel} * 32)
+                    set {earn.%player%.64} to ({@SELLgravel} * 64)  
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is clay block:
+                    set {earn.%player%.1} to {@SELLclay}
+                    set {earn.%player%.4} to ({@SELLclay} * 4)
+                    set {earn.%player%.12} to ({@SELLclay} * 12)
+                    set {earn.%player%.32} to ({@SELLclay} * 32)
+                    set {earn.%player%.64} to ({@SELLclay} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is hardened clay:
+                    set {earn.%player%.1} to {@SELLhardenedclay}
+                    set {earn.%player%.4} to ({@SELLhardenedclay} * 4)
+                    set {earn.%player%.12} to ({@SELLhardenedclay} * 12)
+                    set {earn.%player%.32} to ({@SELLhardenedclay} * 32)
+                    set {earn.%player%.64} to ({@SELLhardenedclay} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is oak wood block:
+                    set {earn.%player%.1} to {@SELLlog}
+                    set {earn.%player%.4} to ({@SELLlog} * 4)
+                    set {earn.%player%.12} to ({@SELLlog} * 12)
+                    set {earn.%player%.32} to ({@SELLlog} * 32)
+                    set {earn.%player%.64} to ({@SELLlog} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is spruce wood block:
+                    set {earn.%player%.1} to {@SELLlog}
+                    set {earn.%player%.4} to ({@SELLlog} * 4)
+                    set {earn.%player%.12} to ({@SELLlog} * 12)
+                    set {earn.%player%.32} to ({@SELLlog} * 32)
+                    set {earn.%player%.64} to ({@SELLlog} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is birch wood block:
+                    set {earn.%player%.1} to {@SELLlog}
+                    set {earn.%player%.4} to ({@SELLlog} * 4)
+                    set {earn.%player%.12} to ({@SELLlog} * 12)
+                    set {earn.%player%.32} to ({@SELLlog} * 32)
+                    set {earn.%player%.64} to ({@SELLlog} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is wool:0:
+                    set {earn.%player%.1} to {@SELLwool}
+                    set {earn.%player%.4} to ({@SELLwool} * 4)
+                    set {earn.%player%.12} to ({@SELLwool} * 12)
+                    set {earn.%player%.32} to ({@SELLwool} * 32)
+                    set {earn.%player%.64} to ({@SELLwool} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is quartz block:
+                    set {earn.%player%.1} to {@SELLquartz}
+                    set {earn.%player%.4} to ({@SELLquartz} * 4)
+                    set {earn.%player%.12} to ({@SELLquartz} * 12)
+                    set {earn.%player%.32} to ({@SELLquartz} * 32)
+                    set {earn.%player%.64} to ({@SELLquartz} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is snow:
+                    set {earn.%player%.1} to {@SELLsnow}
+                    set {earn.%player%.4} to ({@SELLsnow} * 4)
+                    set {earn.%player%.12} to ({@SELLsnow} * 12)
+                    set {earn.%player%.32} to ({@SELLsnow} * 32)
+                    set {earn.%player%.64} to ({@SELLsnow} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is glass:
+                    set {earn.%player%.1} to {@SELLglass}
+                    set {earn.%player%.4} to ({@SELLglass} * 4)
+                    set {earn.%player%.12} to ({@SELLglass} * 12)
+                    set {earn.%player%.32} to ({@SELLglass} * 32)
+                    set {earn.%player%.64} to ({@SELLglass} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is ice:
+                    set {earn.%player%.1} to {@SELLice}
+                    set {earn.%player%.4} to ({@SELLice} * 4)
+                    set {earn.%player%.12} to ({@SELLice} * 12)
+                    set {earn.%player%.32} to ({@SELLice} * 32)
+                    set {earn.%player%.64} to ({@SELLice} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is packed ice:
+                    set {earn.%player%.1} to {@SELLpackedice}
+                    set {earn.%player%.4} to ({@SELLpackedice} * 4)
+                    set {earn.%player%.12} to ({@SELLpackedice} * 12)
+                    set {earn.%player%.32} to ({@SELLpackedice} * 32)
+                    set {earn.%player%.64} to ({@SELLpackedice} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is end stone:
+                    set {earn.%player%.1} to {@SELLendstone}
+                    set {earn.%player%.4} to ({@SELLendstone} * 4)
+                    set {earn.%player%.12} to ({@SELLendstone} * 12)
+                    set {earn.%player%.32} to ({@SELLendstone} * 32)
+                    set {earn.%player%.64} to ({@SELLendstone} * 64)
+                    set {inshop.%player%} to "Blocks"
+                if {object.%player%} is obsidian:
+                    set {earn.%player%.1} to {@SELLobsidian}
+                    set {earn.%player%.4} to ({@SELLobsidian} * 4)
+                    set {earn.%player%.12} to ({@SELLobsidian} * 12)
+                    set {earn.%player%.32} to ({@SELLobsidian} * 32)
+                    set {earn.%player%.64} to ({@SELLobsidian} * 64)
+                    set {inshop.%player%} to "Blocks"
+                set {fromgui.%player%} to false
+            else:
+                send "[&b&l!&f] This command can be executed only by GUI"
+        if arg 1 is "buy":
+            if {fromgui.%player%} is true:
+                set {_slot} to 0
+                loop 36 times:
+                    format slot {_slot} of player with gray glass named "" to be unstealable
+                    add 1 to {_slot}
+                set {_slot} to 36
+                loop 9 times:
+                    format slot {_slot} of player with orange glass named "&6&lBuy" to be unstealable
+                    add 1 to {_slot}
+                format slot 13 of player with {object.%player%} to be unstealable
+                format slot 29 of player with {object.%player%} with lore "&f&m-+--------+-||&7Buy: &d1 &7of &d%{object.%player%}%||&7Cost: &6%{cost.%player%.1}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {cost.%player%} to {cost.%player%.1}]->[set {amount.%player%} to 1]->[set {what.%player%} to "Buy"]
+                format slot 30 of player with 4 of {object.%player%} with lore "&f&m-+--------+-||&7Buy: &d4 &7of &d%{object.%player%}%||&7Cost: &6%{cost.%player%.4}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {cost.%player%} to {cost.%player%.4}]->[set {amount.%player%} to 4]->[set {what.%player%} to "Buy"]
+                format slot 31 of player with 12 of {object.%player%} with lore "&f&m-+--------+-||&7Buy: &d12 &7of &d%{object.%player%}%||&7Cost: &6%{cost.%player%.12}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {cost.%player%} to {cost.%player%.12}]->[set {amount.%player%} to 12]->[set {what.%player%} to "Buy"]
+                format slot 32 of player with 32 of {object.%player%} with lore "&f&m-+--------+-||&7Buy: &d32 &7of &d%{object.%player%}%||&7Cost: &6%{cost.%player%.32}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {cost.%player%} to {cost.%player%.32}]->[set {amount.%player%} to 32]->[set {what.%player%} to "Buy"]
+                format slot 33 of player with 64 of {object.%player%} with lore "&f&m-+--------+-||&7Buy: &d64 &7of &d%{object.%player%}%||&7Cost: &6%{cost.%player%.64}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {cost.%player%} to {cost.%player%.64}]->[set {amount.%player%} to 64]->[set {what.%player%} to "Buy"]
+                format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+                format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+                set {fromgui.%player%} to false
+            else:
+                send "[&b&l!&f] This command can be executed only by GUI"
+        if arg 1 is "sell":
+            if {fromgui.%player%} is true:
+                set {_slot} to 0
+                loop 36 times:
+                    format slot {_slot} of player with gray glass named "" to be unstealable
+                    add 1 to {_slot}
+                set {_slot} to 36
+                loop 9 times:
+                    format slot {_slot} of player with blue glass named "&9&lSell" to be unstealable
+                    add 1 to {_slot}
+                set {numb.%player%} to number of {object.%player%} in player's inventory
+                set {earn1.%player%} to ({earn.%player%.1} * {numb.%player%})
+                format slot 13 of player with {object.%player%} to be unstealable
+                format slot 29 of player with {object.%player%} with lore "&f&m-+--------+-||&7Sell: &d1 &7of &d%{object.%player%}%||&7Earn: &6%{earn.%player%.1}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {earn.%player%} to {earn.%player%.1}]->[set {amount.%player%} to 1]->[set {what.%player%} to "Sell"]->[set {all.%player%} to false]
+                format slot 30 of player with 4 of {object.%player%} with lore "&f&m-+--------+-||&7Sell: &d4 &7of &d%{object.%player%}%||&7Earn: &6%{earn.%player%.4}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {earn.%player%} to {earn.%player%.4}]->[set {amount.%player%} to 4]->[set {what.%player%} to "Sell"]->[set {all.%player%} to false]
+                format slot 31 of player with 12 of {object.%player%} with lore "&f&m-+--------+-||&7Sell: &d12 &7of &d%{object.%player%}%||&7Earn: &6%{earn.%player%.12}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {earn.%player%} to {earn.%player%.12}]->[set {amount.%player%} to 12]->[set {what.%player%} to "Sell"]->[set {all.%player%} to false]
+                format slot 32 of player with 32 of {object.%player%} with lore "&f&m-+--------+-||&7Sell: &d32 &7of &d%{object.%player%}%||&7Earn: &6%{earn.%player%.32}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {earn.%player%} to {earn.%player%.32}]->[set {amount.%player%} to 32]->[set {what.%player%} to "Sell"]->[set {all.%player%} to false]
+                format slot 33 of player with 64 of {object.%player%} with lore "&f&m-+--------+-||&7Sell: &d64 &7of &d%{object.%player%}%||&7Earn: &6%{earn.%player%.64}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command    "/check"]->[set {earn.%player%} to {earn.%player%.64}]->[set {amount.%player%} to 64]->[set {what.%player%} to "Sell"]->[set {all.%player%} to false]
+                format slot 35 of player with {object.%player%} with lore "&f&m-+--------+-||&7Sell all of &d%{object.%player%}% &7in your inventory||&7Earn: &6%{earn1.%player%}%$||&f&m-+--------+-" to run [set {stop.%player%} to false]->[make player execute command "/check"]->[set {earn.%player%} to {earn1.%player%}]->[set {amount.%player%} to {numb.%player%}]->[set {what.%player%} to "Sell"]->[set {all.%player%} to true]
+                format slot 40 of player with red glass named "&7Back" to run [set {back.%player%} to true]->[make player execute command "/shopback"]
+                format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+                set {fromgui.%player%} to false
+            else:
+                send "[&b&l!&f] This command can be executed only by GUI"
+command /check:
+    permission: command.shop
+    permission message: [&c&l!&f] You don't have permission
+    trigger:
+        if {stop.%player%} is false:
+            wait 3 ticks
+            if {what.%player%} is "Sell":
+                if {all.%player%} does not exist:
+                    set {all.%player%} to false
+                if player has {amount.%player%} of {object.%player%}:
+                    add {earn.%player%} to player's balance
+                    remove {amount.%player%} of {object.%player%} from player
+                    send "[&b&l!&f] You sold &o%{amount.%player%}% &fof &o%{object.%player%}% &ffor &6%{earn.%player%}%&f$"
+                    set {stop.%player%} to true
+                    set {fromgui.%player%} to true
+                    make player execute command "/shop sell"
+                    stop
+                else:
+                    if {all.%player%} is false:
+                        send "[&b&l!&f] You don't have &o%{amount.%player%}% &fof &o%{object.%player%}%"
+                    else:
+                        send "[&b&l!&f] You don't have any &o%{object.%player%}%"
+                        set {all.%player%} to false
+            if {what.%player%} is "Buy":
+                if {cost.%player%} > player's balance:
+                    send "[&b&l!&f] You don't have enought money"
+                    set {stop.%player%} to true
+                else if {cost.%player%} = player's balance:
+                    remove {cost.%player%} from player's balance
+                    give player {amount.%player%} of {object.%player%}
+                    send "[&b&l!&f] You bought &o%{amount.%player%}% &fof &o%{object.%player%}% &ffor &6%{cost.%player%}%&f$"
+                    set {stop.%player%} to true
+                    set {fromgui.%player%} to true
+                    make player execute command "/shop buy"
+                    stop
+                else if {cost.%player%} < player's balance:
+                    remove {cost.%player%} from player's balance
+                    give player {amount.%player%} of {object.%player%}
+                    send "[&b&l!&f] You bought &o%{amount.%player%}% &fof &o%{object.%player%}% &ffor &6%{cost.%player%}%&f$"
+                    set {stop.%player%} to true
+                    set {fromgui.%player%} to true
+                    make player execute command "/shop buy"
+                    stop
+        else if {stop.%player%} is true:
+            send "[&b&l!&f] This command can be executed only by GUI"
+            stop
+command /shopback:
+    trigger:
+        if {back.%player%} is true:
+            if {inshop.%player%} is "Blocks":
+                make player execute command "/shop blocks"
+                set {back.%player%} to false
+                set {inshop.%player%} to "Shop"
+                stop
+            if {inshop.%player%} is "Food":
+                make player execute command "/shop food"
+                set {back.%player%} to false
+                set {inshop.%player%} to "Shop"
+                stop
+            if {inshop.%player%} is "Minerals":
+                make player execute command "/shop minerals"
+                set {back.%player%} to false
+                set {inshop.%player%} to "Shop"
+                stop
+            if {inshop.%player%} is "Nature":
+                make player execute command "/shop nature"
+                set {back.%player%} to false
+                set {inshop.%player%} to "Shop"
+                stop
+            if {inshop.%player%} is "Egg":
+                make player execute command "/shop egg"
+                set {back.%player%} to false
+                set {inshop.%player%} to "Shop"
+                stop
+            if {inshop.%player%} is "Redstone":
+                make player execute command "/shop redstone"
+                set {back.%player%} to false
+                set {inshop.%player%} to "Shop"
+                stop
+            if {inshop.%player%} is "Mix":
+                make player execute command "/shop mix"
+                set {back.%player%} to false
+                set {inshop.%player%} to "Shop"
+                stop
+            if {inshop.%player%} is "Shop":
+                set {_slot} to 0
+                loop 45 times:
+                    format slot {_slot} of player with gray glass named "" to be unstealable
+                    add 1 to {_slot}
+                format slot 19 of player with grass named "&4&lBlocks" with lore "&7Click to open the||&4Blocks &7shop" to run [make player execute command "/shop blocks"]
+                format slot 20 of player with apple named "&c&lFood" with lore "&7Click to open the||&cFood &7shop" to run [make player execute command "/shop food"]
+                format slot 21 of player with diamond named "&6&lMinerals" with lore "&7Click to open the||&6Minerals &7shop" to run [make player execute command "/shop minerals"]
+                format slot 22 of player with oak sapling named "&e&lNature" with lore "&7Click to open the||&eNature &7shop" to run [make player execute command "/shop nature"]
+                format slot 23 of player with spawn egg named "&a&lEggs" with lore "&7Click to open the||&aEggs &7shop" to run [make player execute command "/shop egg"]
+                format slot 24 of player with redstone named "&2&lRedstone" with lore "&7Click to open the||&2Redstone &7shop" to run [make player execute command "/shop redstone"]
+                format slot 25 of player with saddle named "&9&lMiscellaneous" with lore "&7Click to open the||&9Miscellaneous &7shop" to run [make player execute command "/shop mix"]
+                format slot 40 of player with 166 named "&7Close" to close
+                format slot 41 of player with emerald named "&6Money" with lore "&f&m-+----------+-||&7Your money: &6%player's balance%||&f&m-+----------+-" to be unstealable
+                set {back.%player%} to false
+                delete {inshop.%player%} 
+        else:
+            send "[&b&l!&f] This command can be executed only by GUI"
+on sign change:
+    if line 1 is "[Shop]":
+        if player has permission "command.shop.sign":
+            set line 1 to "&5[&9S&3h&bo&fp&5]"
+            set line 3 to "&7* &fRight Click &7*"
+            send "[&b&l!&f] Shop sign created"
+on right click on sign:
+    if line 1 of target block is "&5[&9S&3h&bo&fp&5]":
+        if player has permission "command.shop":
+            set {wait.%player%} to true
+            make player execute command "/Shop"
